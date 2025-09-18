@@ -2,6 +2,8 @@
 
 import Link from "next/link"
 import { useState } from "react"
+import Image from "next/image"
+import { title } from "process"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -9,63 +11,61 @@ export default function Header() {
 
   const menuItems = [
     {
-      title: "ホーム",
-      href: "/",
-      submenu: [],
+        title: "ホーム",
+        subtitle: "HOME",
+        href: "/",
+        submenu: [],
     },
     {
-      title: "会社案内",
-      href: "/company",
-      submenu: [
+        title: "会社案内",
+        subtitle: "COMPANY",
+        href: "/company",
+        submenu: [
         { title: "NSDについて", href: "/company/about" },
-        { title: "ご挨拶", href: "/company/greeting" },
+        { title: "ご挨拶", href: "/company/greetings" },
         { title: "企業理念", href: "/company/philosophy" },
-        { title: "沿革", href: "/company/history" },
-        { title: "会社概要", href: "/company/overview" },
-      ],
+        { title: "沿革", href: "/company/about/#history" },
+        { title: "会社概要", href: "/company/profile" },
+        ],
     },
     {
-      title: "事業内容",
-      href: "/business",
-      submenu: [
-        { title: "電子機器開発", href: "/business/electronics" },
-        { title: "システム開発", href: "/business/systems" },
-        { title: "製造・生産", href: "/business/manufacturing" },
-        { title: "品質管理", href: "/business/quality" },
-      ],
+        title: "事業内容",
+        subtitle: "SERVICE",
+        href: "/service",
+        submenu: [
+        { title: "医療機器の開発", href: "/service/medical_equipment" },
+        { title: "自社製品の開発", href: "/product" },
+        { title: "健康サロン", href: "/service/health_salon" }
+        ],
     },
     {
-      title: "自社ブランド",
-      href: "/products",
-      submenu: [
-        { title: "医療機器", href: "/products/medical" },
-        { title: "産業機器", href: "/products/industrial" },
-        { title: "通信機器", href: "/products/communication" },
-        { title: "測定機器", href: "/products/measurement" },
-      ],
+        title: "自社ブランド",
+        subtitle: "PRODUCT",
+        href: "/product",
+        submenu: [],
     },
     {
-      title: "採用情報",
-      href: "/recruit",
-      submenu: [
-        { title: "新卒採用", href: "/recruit/graduate" },
-        { title: "中途採用", href: "/recruit/career" },
-        { title: "インターンシップ", href: "/recruit/internship" },
-        { title: "福利厚生", href: "/recruit/benefits" },
-      ],
+        title: "採用情報",
+        subtitle: "RECRUIT",
+        href: "/recruit",
+        submenu: [],
     },
     {
-      title: "お問い合わせ",
-      href: "/contact",
-      submenu: [],
+        title: "お問い合わせ",
+        subtitle: "CONTACT",
+        href: "/contact",
+        submenu: [
+            {title: "代理店募集", href: "/dairiten"}
+        ],
     },
-  ]
+    ]
+
 
   return (
     <>
       {/* Top blue bar */}
-      <div className="bg-blue-600 text-white text-sm py-1 px-4">
-        <div className="max-w-7xl mx-auto text-center">
+      <div className="bg-[#0071bc] text-white text-xs py-1 px-4">
+        <div className="max-w-7xl mx-auto">
           からだの内側から健康に。愛と健康をサポート健康な未来を。NSDは健康創造企業です。
         </div>
       </div>
@@ -77,13 +77,20 @@ export default function Header() {
             {/* Logo */}
             <div className="flex items-center">
               <Link href="/" className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
+                {/* <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
                   <span className="text-white font-bold text-lg">NSD</span>
                 </div>
                 <div>
                   <h1 className="text-2xl font-bold text-gray-900">日本スーパー電子株式会社</h1>
                   <p className="text-sm text-gray-600">NIPPON SUPER DENSHI CO., LTD.</p>
-                </div>
+                </div> */}
+                <Image
+                    src="/logo.jpg"
+                    alt="医療機器"
+                    width={350}
+                    height={256}
+                    className="rounded"
+                    />
               </Link>
             </div>
 
@@ -109,25 +116,29 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:block border-t">
-            <div className="flex justify-center space-x-0">
-              {menuItems.map((item, index) => (
-                <div
-                  key={item.title}
-                  className="relative group"
-                  onMouseEnter={() => setActiveDropdown(item.title)}
-                  onMouseLeave={() => setActiveDropdown(null)}
-                >
-                  <Link
+            <nav className="hidden lg:flex justify-center ">
+            {menuItems.map((item, index) => (
+                <div key={item.title} className="relative group text-center" 
+                onMouseEnter={() => setActiveDropdown(item.title)}
+                onMouseLeave={() => setActiveDropdown(null)}>
+                <Link
                     href={item.href}
-                    className={`block px-6 py-4 text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors ${
-                      index === 0 ? "border-b-2 border-blue-600 bg-blue-50" : ""
-                    }`}
-                  >
-                    {item.title}
-                  </Link>
+                    className={`block px-15 py-4 transition-colors duration-200 
+                    ${index === 0 ? "bg-blue-50 text-[#0071bc] " : "hover:text-blue-600 hover:bg-gray-50"}
+                    `}
+                >
+                    <div className="text-sm text-gray-800">{item.title}</div>
+                    <div className="text-xs text-[#0071bc] mt-1 tracking-wide">{item.subtitle}</div>
+                </Link>
 
-                  {/* Dropdown menu */}
+                {/* Thanh gạch dưới */}
+                <span
+                    className={`absolute left-0 bottom-0 h-[2px] w-full 
+                    bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left
+                    ${index === 0 ? "scale-x-100" : ""}
+                    `}
+                />
+                {/* Dropdown menu */}
                   {item.submenu.length > 0 && activeDropdown === item.title && (
                     <div className="absolute top-full left-0 w-64 bg-white border border-gray-200 shadow-lg z-50">
                       {item.submenu.map((subItem) => (
@@ -141,10 +152,11 @@ export default function Header() {
                       ))}
                     </div>
                   )}
+                
                 </div>
-              ))}
-            </div>
-          </nav>
+            ))}
+            </nav>
+
         </div>
 
         {/* Mobile menu */}

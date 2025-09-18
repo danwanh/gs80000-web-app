@@ -39,7 +39,7 @@ export default function RootLayout({
       <body className="font-sans antialiased">
         <Suspense fallback={<div className="flex items-center justify-center min-h-screen">Loading...</div>}>
           <Header />
-          <main className="min-h-screen">{children}</main>
+          <main className="min-h-screen text-[14px]"> {children} </main>
           <Footer />
         </Suspense>
       </body>

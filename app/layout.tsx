@@ -1,24 +1,10 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Noto_Sans_JP, Noto_Serif_JP } from "next/font/google"
 import Header from "./components/header"
 import Footer from "./components/footer"
 import { Suspense } from "react"
 import "./globals.css"
 
-const notoSansJP = Noto_Sans_JP({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
-  variable: "--font-noto-sans-jp",
-  display: "swap",
-})
-
-const notoSerifJP = Noto_Serif_JP({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-noto-serif-jp",
-  display: "swap",
-})
 
 export const metadata: Metadata = {
   title: "日本スーパー電子株式会社 - NSD Well",
@@ -35,8 +21,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="ja" className={`${notoSansJP.variable} ${notoSerifJP.variable}`}>
-      <body className="font-sans antialiased">
+    <html lang="ja">
+      <body className="antialiased">
         <Suspense fallback={<div className="flex items-center justify-center min-h-screen">Loading...</div>}>
           <Header />
           <main className="min-h-screen text-[14px]"> {children} </main>

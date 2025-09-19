@@ -124,7 +124,7 @@ export default function AboutPage() {
                 </div>
                 <div>
                   <p>社員一人ひとりの発想により活動し、日本国内、及びアジア地域で起こったさまざまな災害に対する支援活動や、発展途上国で病気に苦しんでいる子供たちへの救済、また地球環境を守るための支援を目的とした「ハピネスプロジェクト」の活動履歴はこちら。</p>
-                  <Link href="/hapiness" className="font-medium underline decoration-dotted underline-offset-4 text-[#0071bc] mb-2">» 事業案内はこちら</Link>
+                  <Link href="/happiness" className="font-medium underline decoration-dotted underline-offset-4 text-[#0071bc] mb-2">» 事業案内はこちら</Link>
                 </div>
               </div>
             </div>

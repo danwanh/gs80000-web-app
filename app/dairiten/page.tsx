@@ -16,7 +16,7 @@ export default function DairitenPage() {
     const form = e.currentTarget
     const data = new FormData(form)
 
-    const res = await fetch("https://formspree.io/f/xgvlgwnk", {
+    const res = await fetch(process.env.NEXT_PUBLIC_DAIRITEN_FORM_URL as string, {
       method: "POST",
       body: data,
       headers: { Accept: "application/json" },

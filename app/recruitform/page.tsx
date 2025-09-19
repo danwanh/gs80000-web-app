@@ -16,7 +16,7 @@ export default function RecruitFormPage() {
     const form = e.currentTarget
     const data = new FormData(form)
 
-    const res = await fetch("https://formspree.io/f/xandrwpg", {
+    const res = await fetch(process.env.NEXT_PUBLIC_RECRUIT_FORM_URL as string, {
       method: "POST",
       body: data,
       headers: { Accept: "application/json" },
@@ -60,7 +60,7 @@ export default function RecruitFormPage() {
                   <h4 className="ml-2 text-black font-bold text-lg">フォームでのお問い合わせ</h4>
                   <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
                 </div>
-                <div className="mb-5 max-w-3xl border border-gray-200">
+                <div className="mb-5 border border-gray-200">
                     <div className="grid grid-cols-[200px_1fr] border-b border-gray-200">
                         <label className="bg-gray-100 text-[#0071bc] font-bold p-3 flex items-center border-b border-gray-200">
                         雇用形態
@@ -94,7 +94,7 @@ export default function RecruitFormPage() {
                   <h4 className="ml-2 text-black font-bold text-lg"> 待遇・選考過程</h4>
                   <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
                 </div>
-                <div className="mb-15 max-w-3xl border border-gray-200">
+                <div className="mb-15 border border-gray-200">
                     <div className="grid grid-cols-[200px_1fr] border-b border-gray-200">
                         <label className="bg-gray-100 text-[#0071bc] font-bold p-3 flex items-center border-b border-gray-200">
                         給与
@@ -180,7 +180,7 @@ export default function RecruitFormPage() {
                     ) : (
                     <form
                     onSubmit={handleSubmit}
-                    className="max-w-3xl border border-gray-200"
+                    className="border border-gray-200"
                     >
                     {/* Name */}
                     <div className="grid grid-cols-[200px_1fr] border-b border-gray-200">
@@ -206,7 +206,7 @@ export default function RecruitFormPage() {
                         name="email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
-                        className="m-3 border border-gray-300 rounded text-sm w-full"
+                        className="m-3 border border-gray-300 rounded text-sm w-90"
                         required
                     />
                     </div>
@@ -222,7 +222,7 @@ export default function RecruitFormPage() {
                         name="confirmEmail"
                         value={confirmEmail}
                         onChange={(e) => setConfirmEmail(e.target.value)}
-                        className="m-3 border border-gray-300 rounded text-sm w-full"
+                        className="m-3 border border-gray-300 rounded text-sm w-90"
                         required
                         />
                         <p className="mb-5 text-sm text-gray-500">

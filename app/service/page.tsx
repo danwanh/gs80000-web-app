@@ -43,13 +43,13 @@ export default function ServicePage() {
                         皆様の健康へのお手伝いが少しでもできるように、全国のお客様に向けて自社製品を中心としたネットショップ『ハピプラ』を運営しております。<br></br>
                         ケイ素の恵み、水晶の恵み、まるオチくん、MAXコラーゲン、ユーグレナなどを取り揃えております。
                     </p>
-                    <Link
+                    {/* <Link
                         href="/hapipla"
                         className="text-[#0071bc] underline decoration-dotted underline-offset-2 hover:text-green-800"
                         target="_blank"
                     >
                         » オンラインショップ
-                    </Link>
+                    </Link> */}
                 </div>
 
                 <div className="mb-10">

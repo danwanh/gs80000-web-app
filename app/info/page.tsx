@@ -4,13 +4,13 @@ import { news } from "../data/news"
 
 const ITEMS_PER_PAGE = 10
 
-export default function InfoPage({
+export default async function InfoPage({
   searchParams,
 }: {
   searchParams?: { page?: string }
 }) {
   const page = parseInt(searchParams?.page || "1", 10)
-  const sortedNews = [...news].sort((a, b) => b.id - a.id) // mới nhất id lớn trước
+  const sortedNews = [...news].sort((a, b) => b.id - a.id) 
   const totalPages = Math.ceil(sortedNews.length / ITEMS_PER_PAGE)
 
   const startIndex = (page - 1) * ITEMS_PER_PAGE

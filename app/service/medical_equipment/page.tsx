@@ -28,14 +28,26 @@ export default function MedicalPage() {
                     <p className="mb-5"> エナジートロンとは、高圧電位治療器(電位･温熱組合せ家庭用医療機器)のことで、電界を利用してバランスの良い体に整えるお手伝いをします。</p>
                     <p className="mb-5">人体は60兆個の細胞から成り立ち、そのひとつひとつから電気が発生しています。</p>
                     <p>エナジートロンは、この細胞電気(生体電位)を活性化させ、健康づくりに役立てるために開発された家庭用医療機器です。</p>
-                    <Image src="/product_digital_ks_001.jpg" 
-                        alt="会社案内" 
-                        width={600}
-                        height={256}
-                        className="rounded mb-4"
-                    />
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 gap-8">
+                        <div>
+                            <Image src="/gs80000.jpg" 
+                            alt="会社案内" 
+                            width={900}
+                            height={256}
+                            className="rounded mb-10"
+                            />
+                        </div>
+                        <div>
+                            <Image src="/product_digital_ks_001.jpg" 
+                            alt="会社案内" 
+                            width={900}
+                            height={256}
+                            className="rounded mb-10"
+                            />
+                        </div>
+                    </div>
                     <p className="mb-10">エナジートロンは、指定管理医療機器に分類され薬事法に定められている「医療機器製造業」としての認可を取得し世界基準ＩＳＯ１３４８５(医療機器用)を取得した工場で生産されています。</p>
-                    <ul>
+                    <ul className="list-disc">
                         <li>管理医療機器認証番号　第217AFBZX00002000号</li>
                         <li>社団法人日本ホームヘルス機器協会登録商品</li>
                         <li>ＩＳＯ１３４８５(国際品質規格)</li>

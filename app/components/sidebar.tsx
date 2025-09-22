@@ -26,24 +26,24 @@ const productsDetails: NavigationItem[] = [
   {
     title: "管理医療機器", href: "/products/ttmax",
     subItems: [
-      { title: "TT-MAX8詳細", href: "/products/ttmax" },
-      { title: "DIGITAL-KS-14000詳細", href: "/products/ttmax/ks14000" },
-      { title: "こんな方にお勧め", href: "/products/ttmax/recommend" },
-      { title: "よくあるご質問", href: "/products/ttmax/faq" },
-      { title: "使用上のご注意", href: "/products/ttmax/caution" },
+      { title: "TT-MAX8詳細", href: "/product/ttmax/detail" },
+      { title: "DIGITAL-KS-14000詳細", href: "/product/ttmax/ks14000" },
+      { title: "こんな方にお勧め", href: "/product/ttmax/recommend" },
+      { title: "よくあるご質問", href: "/product/ttmax/faq" },
+      { title: "使用上のご注意", href: "/product/ttmax/precaution" },
     ],
   },
-  {
-    title: "ケイ素商品", href: "/products/keiso",
-    subItems: [
-      { title: "「ケイ素の恵み」が選ばれる理由", href: "/products/keiso/reason" },
-      { title: "ケイ素の働き", href: "/products/keiso/function" },
-      { title: "実際の使用例", href: "/products/keiso/example" },
-    ],
-  },
-  { title: "水晶の恵み", href: "/products/suisho" },
-  { title: "MAXコラーゲンプレミアムパワー", href: "/products/uc2" },
-  { title: "知能プレミアム", href: "/products/chinou" },
+  // {
+  //   title: "ケイ素商品", href: "/products/keiso",
+  //   subItems: [
+  //     { title: "「ケイ素の恵み」が選ばれる理由", href: "/products/keiso/reason" },
+  //     { title: "ケイ素の働き", href: "/products/keiso/function" },
+  //     { title: "実際の使用例", href: "/products/keiso/example" },
+  //   ],
+  // },
+  // { title: "水晶の恵み", href: "/products/suisho" },
+  // { title: "MAXコラーゲンプレミアムパワー", href: "/products/uc2" },
+  // { title: "知能プレミアム", href: "/products/chinou" },
 ]
 
 export default function Sidebar() {
@@ -58,7 +58,7 @@ export default function Sidebar() {
           <h2 className="text-[#0071bc]  text-l font-medium">お知らせ</h2>
           <div className="text-[#0071bc]">
             »   
-            <Link href="/service" className="font-medium underline decoration-dotted underline-offset-4  mb-2">一覧</Link>
+            <Link href="/info" className="font-medium underline decoration-dotted underline-offset-4  mb-2">一覧</Link>
           </div>
 
         </div>
@@ -223,8 +223,8 @@ export default function Sidebar() {
           ))}
         </div>
       </div>
-      <div className="mt-2">
-          <Link href="/happiness">
+      {/* <div className="mt-2">
+          <Link href="/hapipla">
             <Image
               src="/hapipla.jpg"
               alt="医療機器"
@@ -233,7 +233,7 @@ export default function Sidebar() {
               className="rounded hover:opacity-80 transition mt-10"
             />
             </Link>
-      </div>
+      </div> */}
       <div className="mt-1">
           <Link href="/recruit">
             <Image

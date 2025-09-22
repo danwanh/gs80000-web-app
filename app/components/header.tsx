@@ -67,7 +67,7 @@ export default function Header() {
       {/* Top blue bar */}
       <div className="bg-[#0071bc] text-white text-xs py-1 px-4">
         <div className="max-w-7xl mx-auto">
-          からだの内側から健康に。愛と健康をサポート健康な未来を。NSDは健康創造企業です。
+          からだの内側から健康に。美と健康をサポート健康な未来を。NSDは”健康創造企業です”。
         </div>
       </div>
 
@@ -93,12 +93,12 @@ export default function Header() {
               <Link href="/energy" className="text-[#0071bc] hover:text-blue-800 border-r pr-4">
                 エナジー関連事業
               </Link>
-              <Link href="/company/happiness" className="text-[#0071bc] hover:text-blue-800 border-r pr-4">
+              <Link href="/company/happiness" className="text-[#0071bc] hover:text-blue-800 pr-4">
                 ハピネスプロジェクト
               </Link>
-              <Link href="/hapipla" className="text-[#0071bc] hover:text-blue-800">
+              {/* <Link href="/hapipla" className="text-[#0071bc] hover:text-blue-800">
                 オンラインショップ
-              </Link>
+              </Link> */}
             </div>
 
             {/* Mobile menu button */}
@@ -170,13 +170,13 @@ export default function Header() {
                 >
                   ハピネスプロジェクト
                 </Link>
-                <Link
+                {/* <Link
                   href="/hapipla"
                   onClick={() => setIsMenuOpen(false)}
                   className="block py-2 text-blue-600 hover:text-blue-800"
                 >
                   オンラインショップ
-                </Link>
+                </Link> */}
               </div>
 
               {/* Main menu items */}

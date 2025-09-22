@@ -10,7 +10,7 @@ export default function HomePage() {
 
   return (
     <div>
-      {/* Hero Section */}
+      {/* Slider */}
       <div className="w-full">
         <Slider />
       </div>
@@ -50,7 +50,7 @@ export default function HomePage() {
                   </div>
 
                   {/* News Item 2 */}
-                  <div>
+                  {/* <div>
                     <div className="mt-3 w-full h-50 bg-gray-200 relative">
                       <Image
                         src="/top_service_002.jpg"
@@ -68,10 +68,10 @@ export default function HomePage() {
                       </Link>
                     </div>
                     <p className="mt-3 text-sm">ウェルネス市場におけるブランドとして「メディカル」「サプリ」「ビューティ」「エコ」など、豊かな人生、輝く人生を目指すための製品開発を行っていきます。</p>
-                  </div>
+                  </div> */}
 
                   {/* News Item 3 */}
-                  <div>
+                  {/* <div>
                     <div className="mt-3 w-full h-50 bg-gray-200 relative">
                       <Image
                         src="/top_service_003.jpg"
@@ -82,7 +82,7 @@ export default function HomePage() {
                     </div>
                     <div className="border border-gray-200 text-center bg-gray-100 h-10 flex items-center justify-center">
                       <Link
-                        href="/service/hapila"
+                        href="/hapipla"
                         className="font-bold text-[#0071bc] text-base"
                       >
                         通信販売
@@ -91,7 +91,7 @@ export default function HomePage() {
                     <p className="mt-3 text-sm">
                       皆様の健康へのお手伝いが少しでもできるように、全国のお客様に向けて自社製品を中心としたネットショップ『ハピプラ』を運営しております。
                     </p>
-                  </div>
+                  </div> */}
 
                   {/* News Item 4 */}
                   <div>

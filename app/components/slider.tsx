@@ -41,7 +41,7 @@ const slides: SlideData[] = [
   },
 ]
 
-export default function HeroSlider() {
+export default function Slider() {
   const [currentSlide, setCurrentSlide] = useState(0)
   const [isAutoPlaying, setIsAutoPlaying] = useState(true)
 

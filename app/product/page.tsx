@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 export default function ProductPage() {
   return (
-    <div className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-4 lg:grid-cols-4 gap-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-4 lg:grid-cols-4 gap-8">
       <div className="lg:col-span-3">
         <div>
             {/* Header bar */}

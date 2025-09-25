@@ -93,7 +93,7 @@ export default function Header() {
               <Link href="/energy" className="text-[#0071bc] hover:text-blue-800 border-r pr-4">
                 エナジー関連事業
               </Link>
-              <Link href="/company/happiness" className="text-[#0071bc] hover:text-blue-800 pr-4">
+              <Link href="/happiness" className="text-[#0071bc] hover:text-blue-800 pr-4">
                 ハピネスプロジェクト
               </Link>
               {/* <Link href="/hapipla" className="text-[#0071bc] hover:text-blue-800">
@@ -164,7 +164,7 @@ export default function Header() {
                   エナジー関連事業
                 </Link>
                 <Link
-                  href="/company/happiness"
+                  href="/happiness"
                   onClick={() => setIsMenuOpen(false)}
                   className="block py-2 text-blue-600 hover:text-blue-800"
                 >

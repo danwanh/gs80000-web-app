@@ -4,6 +4,8 @@ import { useState, useEffect } from "react"
 import Image from "next/image"
 import { Allura } from "next/font/google"
 import Link from "next/link"
+import { CheckCircle } from "lucide-react";
+import { Pencil } from "lucide-react";
 
 const allura = Allura({
   subsets: ["latin"],
@@ -56,28 +58,31 @@ export default function Recruit() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <div className="flex items-center">
-                <Image src="/logo.jpg" 
-                        alt="会社案内" 
-                        width={300}
-                        height={200}
-                        className="rounded"
-                      />
+                <Link href="/recruit">
+                  <Image 
+                    src="/logo.jpg" 
+                    alt="会社案内" 
+                    width={300} 
+                    height={200} 
+                    className="rounded cursor-pointer" 
+                  />
+                </Link>
               </div>
             </div>
             <nav className="hidden md:flex items-center space-x-8">
-              <a href="#message" className="text-sm text-gray-700 hover:text-[#0071bx]">
+              <a href="/recruit/#message" className="text-sm text-gray-700 hover:text-[#0071bx]">
                 メッセージ
               </a>
-              <a href="#about" className="text-sm text-gray-700 hover:text-[#0071bx]">
+              <a href="/recruit/#about" className="text-sm text-gray-700 hover:text-[#0071bx]">
                 会社情報
               </a>
-              <a href="#member" className="text-sm text-gray-700 hover:text-[#0071bx]">
+              <a href="/recruit/#member" className="text-sm text-gray-700 hover:text-[#0071bx]">
                 人材情報
               </a>
-              <a href="#work" className="text-sm text-gray-700 hover:text-[#0071bx]">
+              <a href="/recruit/#work" className="text-sm text-gray-700 hover:text-[#0071bx]">
                 働く環境
               </a>
-              <button onClick={() => window.location.href = "/recruitform"} className="bg-[#0071bx] hover:bg-blue-700 text-white px-6 py-2 text-sm rounded transition-colors">
+              <button onClick={() => window.location.href = "/recruitform"} className="bg-[#0071bc] hover:bg-gray-900 text-white px-6 py-2 text-sm rounded transition-colors">
                 採用エントリー
               </button>
             </nav>
@@ -215,10 +220,10 @@ export default function Recruit() {
         <div className="absolute inset-0 bg-blue-200/20"></div>
       </section>
 
-      <section className="py-20 bg-white">
+      <section id="about" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
-            <p className="text-[#0071bc] text-xl tracking-wider uppercase mb-2">HOW TO KNOW ABOUT NSD</p>
+            <p className="text-[#0071bc] text-xl tracking-wider uppercase mb-2">HOW TO KNOW ABOUT NSD.</p>
             <h3 className="text-[#0071bc] text-lg">日本システム開発を知る</h3>
           </div>
 
@@ -254,7 +259,7 @@ export default function Recruit() {
                 東京を中心に体感型ショールーム「ハピネスプラザ」を３０店舗以上運営しております。
               </p>
             </div>
-            <button onClick={() => window.location.href = "/recruitform"} className="mt-5 border border-gray-200 text-gray-500 hover:bg-[#0071bc] hover:text-white px-6 py-4 text-sm rounded transition-colors">
+            <button onClick={() => window.location.href = "/recruit/history"} className="mt-5 border border-gray-200 text-gray-500 hover:bg-[#0071bc] hover:text-white px-6 py-4 text-sm rounded transition-colors">
                 詳細はこちら
             </button>
           </div>
@@ -270,7 +275,7 @@ export default function Recruit() {
         <div className="absolute inset-0 bg-white/10"></div>
       </section>
 
-      <section className="py-20 bg-white">
+      <section id="member" className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <div className="mb-8">
             <p className="text-[#0071bc] text-xl tracking-wider uppercase mb-2">WORKING WITH SMILE.</p>
@@ -284,7 +289,7 @@ export default function Recruit() {
       </section>
 
       {/* Member */}
-      <section id="member">
+      <section>
         {/* Staff Ito */}
         <div className="bg-gray-50">
           <div className="max-w-7xl mx-auto sm:px-12 lg:px-16 py-16 grid grid-cols-3 lg:grid-cols-3 gap-5">
@@ -308,7 +313,7 @@ export default function Recruit() {
                 一人でも多くのお客様に商品を購入していただくのが営業の仕事ですが、商品が素晴らしいので〝売る″ということよりも、お客様との信頼関係を築き、
                 それを積み上げていくことを日々行っています。
               </p>
-              <button onClick={() => window.location.href = "/member/#itto"} className="mt-5 border border-gray-200 text-gray-500 hover:bg-[#0071bc] hover:text-white px-4 py-4 text-sm rounded transition-colors">
+              <button onClick={() => window.location.href = "recruit/member/#itto"} className="mt-5 border border-gray-200 text-gray-500 hover:bg-[#0071bc] hover:text-white px-4 py-4 text-sm rounded transition-colors">
                   続きを読む
               </button>
             </div>
@@ -328,7 +333,7 @@ export default function Recruit() {
                 やりがいは日々目の前で起きる奇跡を共に喜び、本当にたくさんの人から感謝され続けているという所です。入社当初は何も分からず専門知識も全くなく、
                 ただがむしゃらに今日1日を何とか過ごして行こうという感覚でした。
               </p>
-              <button onClick={() => window.location.href = "/member/#onuma"} className="mt-5 border border-gray-200 text-gray-500 hover:bg-[#0071bc] hover:text-white px-4 py-4 text-sm rounded transition-colors">
+              <button onClick={() => window.location.href = "recruit/member/#onuma"} className="mt-5 border border-gray-200 text-gray-500 hover:bg-[#0071bc] hover:text-white px-4 py-4 text-sm rounded transition-colors">
                   続きを読む
               </button>
             </div>
@@ -364,7 +369,7 @@ export default function Recruit() {
                 「ハピネスプラザがあってよかった」「ハピネスプラザから買ってよかった」という信頼関係を築きあげることが使命なのです。
                 自分のことしか考えられなかった私に、人や社会の役に立つことの喜びを教えてくれたのがこの仕事でした。
               </p>
-              <button onClick={() => window.location.href = "/member/#onuma"} className="mt-5 border border-gray-200 text-gray-500 hover:bg-[#0071bc] hover:text-white px-4 py-4 text-sm rounded transition-colors">
+              <button onClick={() => window.location.href = "recruit/member/#onuma"} className="mt-5 border border-gray-200 text-gray-500 hover:bg-[#0071bc] hover:text-white px-4 py-4 text-sm rounded transition-colors">
                   続きを読む
               </button>
             </div>
@@ -384,7 +389,7 @@ export default function Recruit() {
               <p className="text-gray-700">
                 また、プラザをお任せする営業の方が運営に専念出来る様に設備環境やご相談があった際迅速に対応する事も店舗開発の大事な役割になります。
               </p>
-              <button onClick={() => window.location.href = "/member/#onuma"} className="mt-5 border border-gray-200 text-gray-500 hover:bg-[#0071bc] hover:text-white px-4 py-4 text-sm rounded transition-colors">
+              <button onClick={() => window.location.href = "recruit/member/#tanaka"} className="mt-5 border border-gray-200 text-gray-500 hover:bg-[#0071bc] hover:text-white px-4 py-4 text-sm rounded transition-colors">
                   続きを読む
               </button>
             </div>
@@ -419,7 +424,7 @@ export default function Recruit() {
                 また、「ハピネスプロジェクト」を通じて支援活動に参加することで、お客様だけでなく、
                 万民すべての皆様に希望をお届けできることが私のやりがいになっています。
               </p>
-              <button onClick={() => window.location.href = "/member/#onuma"} className="mt-5 border border-gray-200 text-gray-500 hover:bg-[#0071bc] hover:text-white px-4 py-4 text-sm rounded transition-colors">
+              <button onClick={() => window.location.href = "recruit/member/#hagiwara_jr"} className="mt-5 border border-gray-200 text-gray-500 hover:bg-[#0071bc] hover:text-white px-4 py-4 text-sm rounded transition-colors">
                   続きを読む
               </button>
             </div>
@@ -437,8 +442,9 @@ export default function Recruit() {
       </section>
 
         {/* Work environment */}
-       <section className="max-w-3xl mx-auto px-4 py-20 bg-white">
+       <section id="work" className="max-w-3xl mx-auto px-4 py-20 bg-white">
           <div className="text-[16px] font-medium">
+            {/* Training */}
             <div className="mb-8 text-center">
               <p className="text-[#0071bc] text-xl tracking-wider uppercase mb-2">WORK ENVIRONMENT.</p>
               <h3 className="text-[#0071bc] text-lg mb-10">働く環境を知る</h3>
@@ -458,40 +464,56 @@ export default function Recruit() {
                         className="rounded mb-5"
                       />
 
-              <p>基礎研修</p>
-              <Image src="/work_001.jpg" 
-                        alt="会社案内" 
-                        width={400}
-                        height={400}
-                        className="rounded mb-5"
-                      />
-              <p className="mb-10">
-                入社式終了後、まず受けていただくのが基礎研修です。
-                <br/><br/>
-                本社で集中的に受講する本研修の目的は日本スーパー電子、の考え方を深く理解することと、接客スキルや商品の魅力を習得することです。
-                <br/><br/>
-                約２週間、座学を中心に分かりやすく学ぶことができます。
-              </p>
+              <div className="grid grid-cols-2 lg:grid-cols-2 gap-8 mb-10">
+                <div className="col-span-1">
+                  <p>基礎研修</p>
+                  <Image src="/work_001.jpg" 
+                            alt="会社案内" 
+                            width={400}
+                            height={400}
+                            className="rounded mb-5"
+                          />
+                </div>
+                <div className="col-span-1">
+                  <p className="mb-10">
+                    <br/>
+                    入社式終了後、まず受けていただくのが基礎研修です。
+                    <br/><br/>
+                    本社で集中的に受講する本研修の目的は日本スーパー電子、の考え方を深く理解することと、接客スキルや商品の魅力を習得することです。
+                    <br/><br/>
+                    約２週間、座学を中心に分かりやすく学ぶことができます。
+                  </p>
+                </div>
+              </div>
 
-              <p>実習</p>
-              <Image src="/work_002.jpg" 
-                        alt="会社案内" 
-                        width={400}
-                        height={400}
-                        className="rounded mb-5"
-                      />
-              <p className="mb-10">
-                ２週間の基礎研修後は、店舗へ行き、店舗で日々行われている業務を学びます。
-                店舗では実際に行われている業務に携わる事で接客の楽しさ喜び、苦労や難しさを実感していただきます。                
-                <br/><br/>
-                本社で集中的に受講する本研修の目的は日本スーパー電子、の考え方を深く理解することと、接客スキルや商品の魅力を習得することです。
-                <br/><br/>
-                約２週間、座学をまた、店舗では、商品の体験に来て頂いたお客様の感動的な体験談を聞くことができますので商品への自信を深め、仕事に活かすことができる大切な研修です。
-                中心に分かりやすく学ぶことができます。
-              </p>
 
-              <p>店舗配属</p>
-                <div>
+              <div className="grid grid-cols-2 lg:grid-cols-2 gap-8 mb-10">
+                <div className="col-span-1">
+                  <p>実習</p>
+                  <Image src="/work_002.jpg" 
+                            alt="会社案内" 
+                            width={400}
+                            height={400}
+                            className="rounded mb-5"
+                          />
+                </div>
+                <div className="col-span-1">
+                  <p className="mb-10">
+                    <br/>
+                    ２週間の基礎研修後は、店舗へ行き、店舗で日々行われている業務を学びます。
+                    店舗では実際に行われている業務に携わる事で接客の楽しさ喜び、苦労や難しさを実感していただきます。                
+                    <br/><br/>
+                    本社で集中的に受講する本研修の目的は日本スーパー電子、の考え方を深く理解することと、接客スキルや商品の魅力を習得することです。
+                    <br/><br/>
+                    約２週間、座学をまた、店舗では、商品の体験に来て頂いたお客様の感動的な体験談を聞くことができますので商品への自信を深め、仕事に活かすことができる大切な研修です。
+                    中心に分かりやすく学ぶことができます。
+                  </p>
+                </div>
+              </div>
+              
+              <div className="grid grid-cols-2 lg:grid-cols-2 gap-8">
+                <div className="col-span-1">
+                  <p>店舗配属</p>
                   <Image src="/work_003.jpg" 
                             alt="会社案内" 
                             width={400}
@@ -499,8 +521,9 @@ export default function Recruit() {
                             className="rounded mb-5"
                           />
                 </div>
-                <div>
+                <div className="col-span-1">
                   <p className="mb-10">
+                  <br/>
                   新人研修は店舗実習をもってひとまず終了です。
                   このあとは実習店舗か他の店舗もしくは新規店舗のオープニングスタッフとして配属が決まります。
                   <br/><br/>
@@ -509,25 +532,427 @@ export default function Recruit() {
                   主体性と創造性を発揮できる人材を目指していただきます。
                   </p>
                 </div>
+              </div>     
+            </div>
+          
+            {/* 2 */}
+            <h1 className="text-[#0071bc] text-xl font-bold mb-5">２、営業力ステップアップ研修</h1>
+            <p>月に１度、個々のレベルに応じたスキルアップ研修を行っています。
+              この研修は全営業スタッフが集まり成功体験例など情報交換の場でもあり能力アップと同時に社員間のコミュニケーションを深める機会にもなっています。
+            </p>
+            <div className="grid grid-cols-2 lg:grid-cols-2 gap-8 mt-10">
+              <div className="col-span-1">
+                <Image src="/work_004.jpg" 
+                          alt="会社案内" 
+                          width={400}
+                          height={400}
+                          className="rounded mb-5"
+                        />
+              </div>
+              <div className="col-span-1">
+                <Image src="/work_005.jpg" 
+                          alt="会社案内" 
+                          width={400}
+                          height={400}
+                          className="rounded mb-5"
+                        />
+              </div>
+            </div>
+
+            <div className="grid grid-cols-2 lg:grid-cols-2 gap-8 mt-5">
+              <div className="col-span-1">
+                <p>
+                  能力開発の機会を提供
+                  <br/><br/>
+                  社内研修だけでなく、スキルアップや、リーダーシップ力を身につけるために積極的に外部研修を活用しています。
+                </p>
+
+              </div>
+              <div className="col-span-1">
+                <Image src="/work_009.jpg" 
+                          alt="会社案内" 
+                          width={400}
+                          height={400}
+                          className="rounded mb-5"
+                        />
+              </div>
+            </div>
+
+            <div>
+              <h1 className="text-[#0071bc] text-xl font-bold mb-5">貢献力の育成</h1>
+              <div className="grid grid-cols-2 lg:grid-cols-2 gap-8 mt-5">
+                <div className="col-span-1">
+                  <p className="mb-10">
+                    日本スーパー電子は、従業員の「誰かの役に立ちたい、そして自分も成長したい」という　
+                    ”貢献マインド”を大切に育てる企業でありたいと考えています。
+                    <br/>
+                    そのために社内にボランティアチーム「ハピネスプロジェクト」を作り社会貢献活動を従業員の人材育成の場としても積極的に活用しています。
+                  </p>
+                  <Link
+                        href="/happiness"
+                        className="text-[#0071bc] hover:underline text-base"
+                      >
+                        » ハピネスプロジェクトとは？
+                      </Link>
+                </div>
+                <div className="col-span-1">
+                  <Image src="/work_013.jpg" 
+                            alt="会社案内" 
+                            width={400}
+                            height={400}
+                            className="rounded mb-5"
+                          />
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div className="grid grid-cols-2 lg:grid-cols-2 gap-8 mt-5">
+                <div className="col-span-1">
+                  <p className="mb-10">
+                    東日本大震災支援活動
+                    <br/>
+                    日本の観測史上最大の地震となった東日本大震災。
+                    <br/><br/>
+                    現地での想像を絶する惨状を目の当たりにし、一人でも多くの方を助けたい想いから、
+                    ３０回にわたりヘルスケア支援や炊き出し等による支援をさせていただきました。
+                  </p>
+                </div>
+                <div className="col-span-1">
+                  <Image src="/company_055_05.jpg" 
+                            alt="会社案内" 
+                            width={400}
+                            height={400}
+                            className="rounded mb-5"
+                          />
+                </div>
+              </div>
+            </div>    
+          </div>
+
+          {/* Promoting Work-Life Balance */}
+          <div className="text-[16px] font-medium mt-30">
+            <div className="mb-8 text-center">
+              <div className="flex-1 border-t-2 border-[#0071bc] mb-3"></div>
+              <span className="px-4 text-[#0071bc] text-xl text-bold font-medium">ワークライフバランスの推進</span>
+              <div className="flex-1 border-t-2 border-[#0071bc] mt-3 mb-20"></div>
+            </div>
+
+            <div className="mt-15">
+              <h1 className="text-[#0071bc] text-xl font-bold mb-5">ワークライフバランスの考え方</h1>
+              <div className="grid grid-cols-3 lg:grid-cols-3 gap-8 mb-10">
+                <div className="col-span-2">
+                  <p className="mb-10">
+                    <span className="text-red-500 underline underline-offset-4 decoration-dotted">「全従業員が豊かな人生を送ること」</span> そのために、従業員一人ひとりがライフスタイルに合わせて多様な働き方ができる職場環境作りを進めています。
+                      それが、個人のやりがいや、生きがいにつながり、その結果企業の体質強化になると考えています。
+                      <br/><br/>
+                      育児休業制度や時短勤務制度の導入等などが評価され、埼玉県多様な働き方実践企業のゴールド認定を受けました。
+                  </p>
+                </div>
+
+                <div className="col-span-1">
+                  <Image src="/tayou.jpg" 
+                            alt="会社案内" 
+                            width={200}
+                            height={200}
+                            className="rounded mb-5"
+                          />
+                </div>
+              </div>
+
+              <h1 className="text-[#0071bc] text-xl font-bold mb-5">仕事と育児・介護の両立支援</h1>
+              <h2>企業として少子化問題に取り組む</h2>
+              <p>
+                <br/>
+                少子化問題に企業として取り組み、子供を安心して産み、育てることのできる職場環境を作るための施策の一環として、出産祝い金を支給しています。
+              </p>
+              <table className="border-collapse border border-gray-300 w-full text-center text-sm mt-10 mb-10">
+                <thead className="bg-gray-100">
+                  <tr>
+                    <th className="border border-gray-300 px-4 py-2">出産休暇</th>
+                    <th className="border border-gray-300 px-4 py-2">１年未満</th>
+                    <th className="border border-gray-300 px-4 py-2" colSpan={3}>１年以上</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2 font-bold">子供の数</td>
+                    <td className="border border-gray-300 px-4 py-2">一律</td>
+                    <td className="border border-gray-300 px-4 py-2">第１子</td>
+                    <td className="border border-gray-300 px-4 py-2">第２子</td>
+                    <td className="border border-gray-300 px-4 py-2">第３子以降</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2 font-bold">支給額</td>
+                    <td className="border border-gray-300 px-4 py-2">１万円</td>
+                    <td className="border border-gray-300 px-4 py-2">６万円</td>
+                    <td className="border border-gray-300 px-4 py-2">８万円</td>
+                    <td className="border border-gray-300 px-4 py-2">１０万円</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h1 className="text-[#0071bc] text-xl font-bold mb-5">介護のための制度、働き方</h1>
+              <table className="border-collapse border border-gray-300 w-full text-sm mt-10 mb-10">
+                <tbody>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2 font-bold w-1/4 bg-gray-100">介護休業制度</td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      家族の介護を目的に、年間通算９３日間までの範囲内で休業できる制度です。
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2 font-bold bg-gray-100">介護休暇</td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      家族の介護をする従業員は、要介護者が一人の場合年次有給休暇とは別に一年間につき５日を限度として休暇を取得できます。
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2 font-bold bg-gray-100">介護短時間勤務制度	</td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      家族の介護を目的に、１日の就業時間を６時間に短縮できる制度です。
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h1 className="text-[#0071bc] text-xl font-bold mb-5">出産・育児のための制度、働き方</h1>
+              <table className="border-collapse border border-gray-300 w-full text-sm mt-10 mb-10">
+                <tbody>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2 font-bold w-1/4 bg-gray-100">出産休暇</td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      女性従業員が出産するとき、産前６週間（多胎出産１４週）産後８週間。
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2 font-bold bg-gray-100">育児休業制度</td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      子供が１歳２ヶ月になるまで休業できる制度です。保育所に入所を希望しているが、入所できないなどの理由がある場合、最長で２歳まで延長できます。
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 px-4 py-2 font-bold bg-gray-100">育児短時間勤務制度</td>
+                    <td className="border border-gray-300 px-4 py-2">
+                      小学校就学前の子を養育する従業員は１日の就業時間を６時間に短縮できる制度です。
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div className="grid grid-cols-2 lg:grid-cols-2 gap-16 mb-10">
+                <div className="col-span-1">
+                  <p className="font-bold">出産後仕事に復帰している社員の声</p> <br/>
+                  <Image src="/work_007.jpg" 
+                            alt="会社案内" 
+                            width={400}
+                            height={400}
+                            className="rounded mb-5"
+                          />
+                  <p className="text-center">高屋千尋（顧客管理課）</p>
+                </div>
+                <div className="col-span-1">
+                  <p className="mb-10">
+                    <br/>
+                    仕事もプライベートも今が一番充実しています。産休に入る前も育休中も、復帰後の仕事や育児との両立に対して不安でいっぱいでした。
+                    ですが、お休みをして改めて会社環境や周囲の人のサポートにどれだけ助けられているかが分かり仕事に対する姿勢を見つめ直すきっかけとなりました。
+                    <br/><br/>
+                    今は忙しい毎日ですが仕事も楽しく以前よりやりがいを感じています。職場の先輩方にアドバイスを頂きながら、母としても人としても成長させてもらえる環境に感謝しています。
+                  </p>
+                </div>
+              </div>
+                  
+
+            <div className="grid grid-cols-2 lg:grid-cols-2 gap-16 mb-10">
+                <div className="col-span-1">
+                  <p className="font-bold">育休を取得した男性社員の声</p> <br/>
+                  <Image src="/work_014.jpg" 
+                            alt="会社案内" 
+                            width={400}
+                            height={400}
+                            className="rounded mb-5"
+                          />
+                  <p className="text-center">粕加屋崇（営業部店長）</p>
+                </div>
+                <div className="col-span-1">
+                  <p className="mb-10">
+                    <br/>
+                    今回、コロナ禍ということもあり妻が出産後里帰りせず育児をすることになりました。そんな妻をサポートしたいと思い育児休暇を取得したいと思い会社に相談しました。
+                    <br/><br/>
+                    育児休暇は約2ヶ月取得させていただきました。復帰後も、妻や子供の健診などで休暇を取得さていただくこともありました。その際も二つ返事で承諾して下さいました。
+                    <br/><br/>
+                    約2ヶ月という期間、育児と向き合ったことで、少しずつ父親の自覚が芽生えていくと共に相手のことを『想う・考える』という仕事にも活かせる経験ができ、自分自身も成長することができました。
+                    <br/><br/>
+                    今後は自分に続いて他の男性社員にも育児休暇から仕事に活かせるような経験をしてほしいと願っています
+                  </p>
+                </div>
+              </div>   
             </div>
           </div>
 
+          {/* Create healthy work environment */}
+          <div className="text-[16px] font-medium mt-30">
+            <div className="mb-8 text-center">
+              <div className="flex-1 border-t-2 border-[#0071bc] mb-3"></div>
+              <span className="px-4 text-[#0071bc] text-xl text-bold font-medium">健康的に働ける職場環境づくり</span>
+              <div className="flex-1 border-t-2 border-[#0071bc] mt-3 mb-20"></div>
+            </div>
+
+            <div className="mt-15">
+              <p>日本スーパー電子では、社員の健康維持、向上を目指して「心身の健康づくり」に取り組んでいます。</p>
+              <div className="grid grid-cols-3 lg:grid-cols-3 gap-8 mb-10 mt-10">
+                <div className="col-span-2">
+                    <div className="flex items-center space-x-2 mb-10">
+                      <CheckCircle className="w-5 h-5 text-blue-500" />
+                      <span className="text-red-500 underline decoration-dotted underline-offset-4">
+                        年１回の健康診断（生活習慣病検診）
+                      </span>
+                  </div>
+                  <p className="ml-5 mb-10">
+                    生活習慣病によって引き起こされる様々な疾病の早期発見早期治療のための検査を行います。
+                  </p>
+                </div>
+
+                <div className="col-span-1">
+                  <Image src="/work_010.jpg" 
+                            alt="会社案内" 
+                            width={400}
+                            height={400}
+                            className="rounded mb-5"
+                          />
+                </div>
+              </div>
+
+              <div className="grid grid-cols-3 lg:grid-cols-3 gap-8 mb-10 mt-10">
+                <div className="col-span-2">
+                    <div className="flex items-center space-x-2 mb-10">
+                      <CheckCircle className="w-5 h-5 text-blue-500" />
+                      <p>
+                        <span className="text-red-500 underline decoration-dotted underline-offset-4">
+                          「体組成測定」機器
+                        </span> を導入しています。 
+                      </p> 
+                  </div>
+                  <p className="ml-5 mb-10">
+                    体内の筋肉や脂肪などの組織構成を調べ、生活習慣病や体調の乱れを知る事ができます。
+                  </p>
+                </div>
+
+                <div className="col-span-1">
+                  <Image src="/work_011.jpg" 
+                            alt="会社案内" 
+                            width={400}
+                            height={400}
+                            className="rounded mb-5"
+                          />
+                </div>
+              </div>
+
+              <div className="grid grid-cols-3 lg:grid-cols-3 gap-8 mb-10 mt-5">
+                <div className="col-span-2">
+                    <div className="flex items-center space-x-2 mb-10">
+                      <CheckCircle className="w-5 h-5 text-blue-500" />
+                      <p>
+                        <span className="text-red-500 underline decoration-dotted underline-offset-4">
+                          インフルエンザの予防接種を全額支援
+                        </span>  
+                      </p> 
+                  </div>
+                  <p className="ml-5 mb-10">
+                    本人の希望により予防接種を受ける場合に全額会社が支援します。
+                  </p>
+                </div>
+
+                <div className="col-span-1">
+                  <Image src="/work_012.jpg" 
+                            alt="会社案内" 
+                            width={400}
+                            height={400}
+                            className="rounded mb-5"
+                          />
+                </div>
+              </div>
+              <p className="mb-15">上記項目を実施しております。</p>
+
+              <h1 className="text-[#0071bc] text-xl font-bold mb-5">ハラスメントの防止と対策</h1>
+              <p>
+                ハラスメントのない職場づくりのために、<span className="text-red-500 underline decoration-dotted underline-offset-4">「ハラスメント防止対策」</span> を作成し、社内ビジネスアプリを活用して従業員に対する啓蒙活動を行なっています。
+                万が一、ハラスメントに関する問題が発生した際に速やかに適切な対応が取れるよう<span className="text-red-500 underline decoration-dotted underline-offset-4">「安心相談窓口</span>を設置し、安心して相談できる環境を整えています。
+              </p>
+            </div>
+          </div>
        </section>
 
+       <section className="max-w-3xl mx-auto px-4 py-20 bg-white">
+          <div className="text-[16px] font-medium">
+            <div className="mb-8 text-center">
+            <p className="text-[#0071bc] text-xl tracking-wider uppercase mb-2">Message</p>
+            <h3 className="text-[#0071bc] text-lg">創業者からのメッセージ</h3>
+          </div>
 
+          <div className="grid grid-cols-4 gap-8">
+            <div className="col-span-3">
+              <p className="text-xl text-red-500 underline decoration-dotted underline-offset-4 mb-15">「理想の会社を実現したい」その思いで生きています。</p>
+              <p>
+                この会社は、若い頃の私の体験から始まりました。
+                <br/><br/>
+                私はかつて、２４時間仕事漬けの営業社員としてなりふり構わず仕事をし続け、若くして人並み以上の地位や収入を手に入れましたが、ある時ふと疑問を感じて会社を辞め、アメリカへの長期旅行に出ました。
+                <br/><br/>
+                そこで私が目のあたりにしたのは、アメリカの一流ビジネスマンたちの豊かな生活でした。
+                彼らは働く時にはとことん仕事に集中し、帰宅後や休日には同じくらいの熱意で家族を大切にし、また、趣味や遊びに没頭します。一度きりの人生をとことん楽しもう。そのために仕事をしよう。
+                <br/><br/>
+                帰国した私は、生き方をガラリと変え、さらに、素晴らしい医療器具に出会ったこともあって、自ら会社を興し実践を始めました。
+                「従業員全員が、人生を心底楽しみながら働ける企業環境を創りたい」
+                それが私の目指している「理想の会社」です。
+                <br/><br/>
+                私の理想は今、かなりの割合で実現しつつあります。
+                私たちと共に「理想の会社創りに挑戦したい」と思っているやる気のある人に加わってもらえれば、さらに素晴らしい「理想の会社」が完成するのではないかと楽しみにしています。
+              </p>
+            </div>
+          <div className="col-span-1">
+              <Image src="/work_008.jpg" 
+                          alt="会社案内" 
+                          width={400}
+                          height={400}
+                          className="rounded mb-5"
+                        />
+              <p className="text-center">
+                取締役会長
+              </p>
+              <p className="text-center text-bold">
+                髙橋常久
+              </p>
+          </div>
 
-    
+          </div>
+        </div>
+       </section>
 
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 text-center text-medium text-[16px]">
+            <p>
+              <span className="text-red-500 underline decoration-dotted underline-offset-4 mb-15">応募要項</span>
+              をご確認のうえ、以下のエントリページよりご応募ください。
+            </p>
+            <Link
+              href="/recruitform"
+              className="inline-flex items-center gap-2 rounded-md bg-[#0071bc] px-8 py-4 text-white hover:bg-orange-400 transition mt-10"
+            >
+              <span className="text-lg">採用エントリー</span>
+              <Pencil className="w-5 h-5" />
+            </Link>
+        </div>
+      </section>
 
       <footer className="bg-[#0071bc] text-white text-center py-8">
       <div className="max-w-6xl mx-auto px-4">
         {/* Menu */}
         <div className="flex flex-wrap justify-center space-x-6 mb-6 text-sm">
           <Link href="/" className="hover:underline">会社HP</Link>
-          <Link href="/about" className="hover:underline">会社概要</Link>
-          <Link href="/services" className="hover:underline">事業内容</Link>
+          <Link href="/company" className="hover:underline">会社概要</Link>
+          <Link href="/service" className="hover:underline">事業内容</Link>
           <Link href="/contact" className="hover:underline">お問い合わせ</Link>
-          <Link href="/shop" className="hover:underline">ネットショップ</Link>
+          <Link href="/energy" className="hover:underline">ネットショップ</Link>
           <Link href="/privacy" className="hover:underline">プライバシーポリシー</Link>
         </div>
 

@@ -13,13 +13,13 @@ const companyProfile: NavigationItem[] = [
   { title: "NSDについて", href: "/company/about" },
   { title: "ご挨拶", href: "/company/greetings" },
   { title: "企業理念", href: "/company/philosophy" },
-  { title: "沿革", href: "/company/history" },
-  { title: "会社概要", href: "/company/overview" },
+  { title: "沿革", href: "/company/about/#history" },
+  { title: "会社概要", href: "/company/profile" },
 ]
 const businessDetails: NavigationItem[] = [
-  {title: "医療機器の開発", href: "service/medical-equipment"},
-  {title: "ヘルス・スキンケア製品の開発", href: "service/cosme"},
-  {title: "健康サロン", href: "service/health-salon"}
+  {title: "医療機器の開発", href: "/service/medical_equipment"},
+  // {title: "ヘルス・スキンケア製品の開発", href: "/service/cosme"},
+  {title: "健康サロン", href: "/service/health_salon"}
 ]
 
 const productsDetails: NavigationItem[] = [

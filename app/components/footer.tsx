@@ -23,15 +23,15 @@ export default function Footer() {
           <div>
             <ul className="space-y-2 text-gray-600">
               <li>
-                <Link href="/company" className="text-[#0071bc] font-medium">
+                <Link href="/company/about" className="text-[#0071bc] font-medium">
                   会社案内
                 </Link>
               </li>
               <ul className="mt-2 ml-2 space-y-2">
-                <li><Link href="/company" className="hover:underline">ご挨拶</Link></li>
-                <li><Link href="/company" className="hover:underline">企業理念</Link></li>
-                <li><Link href="/company" className="hover:underline">会社概要</Link></li>
-                <li><Link href="/company" className="hover:underline">沿革</Link></li>
+                <li><Link href="/company/greetings" className="hover:underline">ご挨拶</Link></li>
+                <li><Link href="/company/philosophy" className="hover:underline">企業理念</Link></li>
+                <li><Link href="/company/profile" className="hover:underline">会社概要</Link></li>
+                <li><Link href="/company/profile/#history" className="hover:underline">沿革</Link></li>
               </ul>
             </ul>
           </div>
@@ -46,8 +46,8 @@ export default function Footer() {
               </li>
               <ul className="mt-2 ml-2 space-y-2">
                 <li><Link href="/service/medical_equipment" className="hover:underline">医療機器の開発</Link></li>
-                <li><Link href="/service/health_salon" className="hover:underline">ヘルス・スキンケア製品開発</Link></li>
-                <li><Link href="/product" className="hover:underline">プラザ事業</Link></li>
+                {/* <li><Link href="/service/health_salon" className="hover:underline">ヘルス・スキンケア製品開発</Link></li> */}
+                <li><Link href="/health_salon" className="hover:underline">プラザ事業</Link></li>
               </ul>
             </ul>
           </div>
@@ -61,11 +61,11 @@ export default function Footer() {
                 </Link>
               </li>
               <ul className="mt-2 ml-2 space-y-2">
-                <li><Link href="/product" className="hover:underline">管理医療機器</Link></li>
-                <li><Link href="/product" className="hover:underline">ケイ素商品</Link></li>
-                <li><Link href="/product" className="hover:underline">水晶の恵み</Link></li>
+                <li><Link href="/product/ttmax" className="hover:underline">管理医療機器</Link></li>
+                {/* <li><Link href="/product" className="hover:underline">ケイ素商品</Link></li> */}
+                {/* <li><Link href="/product" className="hover:underline">水晶の恵み</Link></li>
                 <li><Link href="/product" className="hover:underline">MAXコラーゲンプレミアムパワー</Link></li>
-                <li><Link href="/product" className="hover:underline">知能プレミアム</Link></li>
+                <li><Link href="/product" className="hover:underline">知能プレミアム</Link></li> */}
               </ul>
             </ul>
           </div>

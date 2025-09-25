@@ -26,7 +26,7 @@ export default function ks14000Page() {
 
             <div className="mb-10">
                 <p>
-                    <p className="font-bold">大幅な軽量化を実現</p>
+                    <span className="font-bold">大幅な軽量化を実現</span>
                     トランスが付属していないため、大幅な軽量化を実現しました。本体重量「4.6kg」。<br></br>
                     ※トランス治療器の約半分の重量
                 </p>

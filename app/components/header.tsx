@@ -25,7 +25,7 @@ export default function Header() {
         { title: "NSDについて", href: "/company/about" },
         { title: "ご挨拶", href: "/company/greetings" },
         { title: "企業理念", href: "/company/philosophy" },
-        { title: "沿革", href: "/company/about/#history" },
+        // { title: "沿革", href: "/company/about/#history" },
         { title: "会社概要", href: "/company/profile" },
         ],
     },

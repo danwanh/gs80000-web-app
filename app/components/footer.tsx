@@ -31,7 +31,7 @@ export default function Footer() {
                 <li><Link href="/company/greetings" className="hover:underline">ご挨拶</Link></li>
                 <li><Link href="/company/philosophy" className="hover:underline">企業理念</Link></li>
                 <li><Link href="/company/profile" className="hover:underline">会社概要</Link></li>
-                <li><Link href="/company/profile/#history" className="hover:underline">沿革</Link></li>
+                {/* <li><Link href="/company/profile/#history" className="hover:underline">沿革</Link></li> */}
               </ul>
             </ul>
           </div>

@@ -101,17 +101,15 @@ export default function AboutPage() {
                 <Link href="/service" className="font-medium underline decoration-dotted underline-offset-4 text-[#0071bc] mb-2">» 事業案内はこちら</Link>
               </div>
 
-              <div className="bg-gray-100 border-l-4 border-l-[#0071bc] border-b-4 border-b-gray-300  p-2 mb-6">
+              {/* <div className="bg-gray-100 border-l-4 border-l-[#0071bc] border-b-4 border-b-gray-300  p-2 mb-6">
                 <h3 className="text-[#0071bc] font-bold text-lg">沿革</h3>
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
-              </div>
-              <div id="history">
+              </div> */}
+              {/* <div id="history">
                 <div className="max-w-3xl mx-auto mb-10">
                   {events.map((event, index) => (
                   <div key={index} className="grid grid-cols-5 gap-2">
-                    {/* Date */}
                     <div className="text-gray-700 font-bold py-4">{event.date}</div>
-                    {/* Event */}
                     <div
                       className={`col-span-4 whitespace-pre-line text-gray-800 py-4 ${
                         index !== 0 ? "border-t border-dotted border-gray-300" : ""
@@ -122,11 +120,12 @@ export default function AboutPage() {
                   </div>
                   ))}
                 </div>
+                
                 <div>
                   <p>社員一人ひとりの発想により活動し、日本国内、及びアジア地域で起こったさまざまな災害に対する支援活動や、発展途上国で病気に苦しんでいる子供たちへの救済、また地球環境を守るための支援を目的とした「ハピネスプロジェクト」の活動履歴はこちら。</p>
                   <Link href="/happiness" className="font-medium underline decoration-dotted underline-offset-4 text-[#0071bc] mb-2">» 事業案内はこちら</Link>
                 </div>
-              </div>
+              </div> */}
             </div>
         </div>
       </div>

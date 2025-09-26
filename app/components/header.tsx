@@ -159,14 +159,14 @@ export default function Header() {
                 <Link
                   href="/energy"
                   onClick={() => setIsMenuOpen(false)}
-                  className="block py-2 text-blue-600 hover:text-blue-800"
+                  className="block py-2 text-[#0071bc] hover:text-gray-800"
                 >
                   エナジー関連事業
                 </Link>
                 <Link
                   href="/happiness"
                   onClick={() => setIsMenuOpen(false)}
-                  className="block py-2 text-blue-600 hover:text-blue-800"
+                  className="block py-2 text-[#0071bc] hover:text-gray-800"
                 >
                   ハピネスプロジェクト
                 </Link>
@@ -185,7 +185,7 @@ export default function Header() {
                   <Link
                     href={item.href}
                     onClick={() => setIsMenuOpen(false)}  // đóng menu khi click
-                    className="block py-2 font-medium text-gray-700 hover:text-blue-600"
+                    className="block py-2 font-medium text-gray-700 hover:text-[#0071bc]"
                   >
                     {item.title}
                   </Link>

@@ -13,6 +13,8 @@ const allura = Allura({
 })
 
 export default function Recruit() {
+  const [isOpen, setIsOpen] = useState(false)
+
   const slides = [
     {
       bg: "/slide_1.jpg",
@@ -53,22 +55,23 @@ export default function Recruit() {
       }}
     >
       {/* Header */}
-      <header className="bg-white shadow-sm sticky top-0 z-50">
+            <header className="bg-white shadow-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
+            {/* Logo */}
             <div className="flex items-center">
-              <div className="flex items-center">
-                <Link href="/recruit">
-                  <Image 
-                    src="/logo.jpg" 
-                    alt="会社案内" 
-                    width={300} 
-                    height={200} 
-                    className="rounded cursor-pointer" 
-                  />
-                </Link>
-              </div>
+              <Link href="/recruit">
+                <Image 
+                  src="/logo.jpg" 
+                  alt="会社案内" 
+                  width={300} 
+                  height={200} 
+                  className="rounded cursor-pointer" 
+                />
+              </Link>
             </div>
+
+            {/* Desktop menu */}
             <nav className="hidden md:flex items-center space-x-8">
               <a href="/recruit/#message" className="text-sm text-gray-700 hover:text-[#0071bx]">
                 メッセージ
@@ -82,14 +85,102 @@ export default function Recruit() {
               <a href="/recruit/#work" className="text-sm text-gray-700 hover:text-[#0071bx]">
                 働く環境
               </a>
-              <button onClick={() => window.location.href = "/recruitform"} className="bg-[#0071bc] hover:bg-gray-900 text-white px-6 py-2 text-sm rounded transition-colors">
+              <button
+                onClick={() => (window.location.href = "/recruitform")}
+                className="bg-[#0071bc] hover:bg-gray-900 text-white px-6 py-2 text-sm rounded transition-colors"
+              >
                 採用エントリー
               </button>
             </nav>
+
+            {/* Mobile button */}
+            <div className="md:hidden">
+              <button
+                onClick={() => setIsOpen(true)}
+                className="text-gray-700 hover:text-[#0071bc] focus:outline-none"
+              >
+                {/* Hamburger icon */}
+                <svg
+                  className="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
-      </header>
 
+        {/* Mobile Menu Overlay */}
+        {isOpen && (
+          <div className="fixed inset-0 z-50 md:hidden">
+            {/* Background overlay */}
+            <div
+              className="fixed inset-0 backdrop-blur-sm"
+              onClick={() => setIsOpen(false)}
+            ></div>
+
+            {/* Slide-over menu */}
+            <div className="fixed inset-y-0 right-0 w-64 bg-white shadow-lg p-6 flex flex-col space-y-6">
+              {/* Close button */}
+              <button
+                onClick={() => setIsOpen(false)}
+                className="self-end text-gray-700 hover:text-red-500"
+              >
+                ✕
+              </button>
+
+              {/* Links */}
+              <a
+                href="/recruit/#message"
+                onClick={() => setIsOpen(false)}
+                className="text-gray-700 hover:text-[#0071bc]"
+              >
+                メッセージ
+              </a>
+              <a
+                href="/recruit/#about"
+                onClick={() => setIsOpen(false)}
+                className="text-gray-700 hover:text-[#0071bc]"
+              >
+                会社情報
+              </a>
+              <a
+                href="/recruit/#member"
+                onClick={() => setIsOpen(false)}
+                className="text-gray-700 hover:text-[#0071bc]"
+              >
+                人材情報
+              </a>
+              <a
+                href="/recruit/#work"
+                onClick={() => setIsOpen(false)}
+                className="text-gray-700 hover:text-[#0071bc]"
+              >
+                働く環境
+              </a>
+
+              <button
+                onClick={() => {
+                  setIsOpen(false)
+                  window.location.href = "/recruitform"
+                }}
+                className="bg-[#0071bc] hover:bg-gray-900 text-white px-6 py-2 text-sm rounded transition-colors"
+              >
+                採用エントリー
+              </button>
+            </div>
+          </div>
+        )}
+      </header>
+      
       {/* SLider */}
        <section className="relative h-screen overflow-hidden">
       {/* Background images */}

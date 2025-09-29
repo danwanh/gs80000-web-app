@@ -408,7 +408,7 @@ export default function MedicalPage() {
                         </div>
                         
                         {/* Navigation bar */}
-                        <div className="space-y-2 mb-10">
+                        {/* <div className="space-y-2 mb-10">
                             <h1 className="text-xl">エリアで探す</h1>
                             <hr className="border-t-2 border-gray-800" />
                             <div className="flex space-x-4 text-[#0071bc] text-lg">
@@ -434,10 +434,8 @@ export default function MedicalPage() {
                             <div className="space-y-6">
                             {branches.tokyo.map((branch, index) => (
                                 <div key={index} className="grid grid-cols-4 gap-4">
-                                {/* Branch */}
                                 <div className="col-span-1 font-bold">{branch.name}</div>
 
-                                {/* Info */}
                                 <div className="col-span-3 space-y-2">
                                     <p>{branch.address}</p>
                                     <p>営業時間 {branch.businessHours}</p>
@@ -463,10 +461,8 @@ export default function MedicalPage() {
                             <div className="space-y-6">
                             {branches.kanagawa.map((branch, index) => (
                                 <div key={index} className="grid grid-cols-4 gap-4">
-                                {/* Branch */}
                                 <div className="col-span-1 font-bold">{branch.name}</div>
 
-                                {/* Info */}
                                 <div className="col-span-3 space-y-2">
                                     <p>{branch.address}</p>
                                     <p>営業時間 {branch.businessHours}</p>
@@ -493,10 +489,8 @@ export default function MedicalPage() {
                             <div className="space-y-6">
                             {branches.saitama.map((branch, index) => (
                                 <div key={index} className="grid grid-cols-4 gap-4">
-                                {/* Branch */}
                                 <div className="col-span-1 font-bold">{branch.name}</div>
 
-                                {/* Info */}
                                 <div className="col-span-3 space-y-2">
                                     <p>{branch.address}</p>
                                     <p>営業時間 {branch.businessHours}</p>
@@ -522,10 +516,8 @@ export default function MedicalPage() {
                             <div className="space-y-6">
                             {branches.chiba.map((branch, index) => (
                                 <div key={index} className="grid grid-cols-4 gap-4">
-                                {/* Branch */}
                                 <div className="col-span-1 font-bold">{branch.name}</div>
 
-                                {/* Info */}
                                 <div className="col-span-3 space-y-2">
                                     <p>{branch.address}</p>
                                     <p>営業時間 {branch.businessHours}</p>
@@ -546,7 +538,6 @@ export default function MedicalPage() {
                         </div>
 
                                                 
-                        {/* Navigation bar */}
                         <div className="space-y-2 mb-10">
                             <h1 className="text-xl">エリアで探す</h1>
                             <hr className="border-t-2 border-gray-800" />
@@ -565,7 +556,7 @@ export default function MedicalPage() {
                                     </div>
                                 ))}
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>  

@@ -59,7 +59,7 @@ export default function ks14000Page() {
             </div>
 
             {/* Black white bar */}
-            <div className="bg-white border-l-2 border-l-black border-b-1 border-b-gray-300  p-2 mb-6">
+            {/* <div className="bg-white border-l-2 border-l-black border-b-1 border-b-gray-300  p-2 mb-6">
                 <h4 className="ml-2 text-black font-bold text-lg">治療電圧の選択</h4>
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
@@ -74,10 +74,10 @@ export default function ks14000Page() {
                 <p>
                     治療電圧は1,000V ～ 14,000Vまで「1,000V単位」で選択が可能です。
                 </p>
-            </div>
+            </div> */}
 
             {/* Black white bar */}
-            <div className="bg-white border-l-2 border-l-black border-b-1 border-b-gray-300  p-2 mb-6">
+            {/* <div className="bg-white border-l-2 border-l-black border-b-1 border-b-gray-300  p-2 mb-6">
                 <h4 className="ml-2 text-black font-bold text-lg">治療時間の選択</h4>
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
@@ -94,10 +94,10 @@ export default function ks14000Page() {
                     高電圧2,000V～14,000Vの治療は最長1時間、1時間を経過すると自動的に低電圧1,000Vへ変化します。 <br></br>
                     （治療時間は最長8時間で、1時間単位で時間の選択が可能です）                
                 </p>
-            </div>
+            </div> */}
 
             {/* Sub header bar */}
-            <div className="bg-gray-100 border-l-4 border-l-[#0071bc] border-b-4 border-b-gray-300  p-2 mb-6">
+            {/* <div className="bg-gray-100 border-l-4 border-l-[#0071bc] border-b-4 border-b-gray-300  p-2 mb-6">
                 <h3 className="text-[#0071bc] font-bold text-lg">オペレーションの簡易性・見易さ</h3>
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
@@ -107,10 +107,10 @@ export default function ks14000Page() {
                             height={256}
                             className="rounded mb-4"
                           />
-            <p>液晶パネルのボタン表示をアイコン化することにより操作が分かり易くなり、残り治療時間はパネル数字のカウントダウンすることで把握し易くなりました。</p>
+            <p>液晶パネルのボタン表示をアイコン化することにより操作が分かり易くなり、残り治療時間はパネル数字のカウントダウンすることで把握し易くなりました。</p> */}
 
             {/* Sub header bar */}
-            <div className="bg-gray-100 border-l-4 border-l-[#0071bc] border-b-4 border-b-gray-300 p-2 mb-6 mt-6">
+            {/* <div className="bg-gray-100 border-l-4 border-l-[#0071bc] border-b-4 border-b-gray-300 p-2 mb-6 mt-6">
                 <h3 className="text-[#0071bc] font-bold text-lg">液晶パネルの明るさを調節可能</h3>
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
@@ -120,15 +120,15 @@ export default function ks14000Page() {
                             height={256}
                             className="rounded mb-4"
                           />
-            <p>液晶パネルの明るさを手動により調整が可能、お部屋の明暗に合わせてお好みの明るさに調整できます。</p>
+            <p>液晶パネルの明るさを手動により調整が可能、お部屋の明暗に合わせてお好みの明るさに調整できます。</p> */}
 
             {/* Sub header bar */}
-            <div className="bg-gray-100 border-l-4 border-l-[#0071bc] border-b-4 border-b-gray-300 p-2 mb-6 mt-6">
+            {/* <div className="bg-gray-100 border-l-4 border-l-[#0071bc] border-b-4 border-b-gray-300 p-2 mb-6 mt-6">
                 <h3 className="text-[#0071bc] font-bold text-lg">通電(電床)マット、絶縁技術の改新</h3>
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
-            </div>
+            </div> */}
             {/* Black white bar */}
-            <div className="bg-white border-l-2 border-l-black border-b-1 border-b-gray-300  p-2 mb-6">
+            {/* <div className="bg-white border-l-2 border-l-black border-b-1 border-b-gray-300  p-2 mb-6">
                 <h4 className="ml-2 text-black font-bold text-lg">ポイント①：通電マットの特徴</h4>
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
@@ -148,10 +148,10 @@ export default function ks14000Page() {
             <p>
                 通電マットは片面通電方式を採用したことにより、表裏面の区別が可能になりました。<br></br>
                 ※裏面の絶縁面を作ることにより、通電効率が向上しました。
-            </p>
+            </p> */}
 
             {/* Black white bar */}
-            <div className="bg-white border-l-2 border-l-black border-b-1 border-b-gray-300  p-2 mb-6 mt-6">
+            {/* <div className="bg-white border-l-2 border-l-black border-b-1 border-b-gray-300  p-2 mb-6 mt-6">
                 <h4 className="ml-2 text-black font-bold text-lg">ポイント②：絶縁技術の改新</h4>
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
@@ -168,10 +168,10 @@ export default function ks14000Page() {
                 ※椅子の下に敷くことにより、以下の効果がございます。<br></br>
                 ・絶縁率の向上 <br></br>
                 ・シートへの痛み防止
-            </p>
+            </p> */}
 
             {/* Sub header bar */}
-            <div className="bg-gray-100 border-l-4 border-l-[#0071bc] border-b-4 border-b-gray-300 p-2 mb-6 mt-6">
+            {/* <div className="bg-gray-100 border-l-4 border-l-[#0071bc] border-b-4 border-b-gray-300 p-2 mb-6 mt-6">
                 <h3 className="text-[#0071bc] font-bold text-lg">温熱レベルの調整が可能に</h3>
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
@@ -184,10 +184,10 @@ export default function ks14000Page() {
             <p>     
                 温熱の強弱が可能になりました。<br></br>
                 ※弱から強まで６段階（40℃～45℃）の　温度調整が可能です。
-            </p>
+            </p> */}
 
             {/* Sub header bar */}
-            <div className="bg-gray-100 border-l-4 border-l-[#0071bc] border-b-4 border-b-gray-300 p-2 mb-6 mt-6">
+            {/* <div className="bg-gray-100 border-l-4 border-l-[#0071bc] border-b-4 border-b-gray-300 p-2 mb-6 mt-6">
                 <h3 className="text-[#0071bc] font-bold text-lg">異常エラー時の判断が明確化</h3>
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
@@ -199,7 +199,7 @@ export default function ks14000Page() {
                           />
             <p>     
                 エラー発生時に、パネルにエラーコードが表示されることにより、エラー原因の特定が容易になりました。
-            </p>
+            </p> */}
 
             {/* Sub header bar */}
             <div className="bg-gray-100 border-l-4 border-l-[#0071bc] border-b-4 border-b-gray-300 p-2 mb-6 mt-6">

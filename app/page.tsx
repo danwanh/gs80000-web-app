@@ -120,9 +120,7 @@ export default function HomePage() {
               </div>
 
 
-              {/* News List */}
-              <div className="bg-gray-100 border border-gray-200 p-3 shadow-sm space-10">
-                {/* Title */}
+              {/* <div className="bg-gray-100 border border-gray-200 p-3 shadow-sm space-10">
                 <div className="flex justify-between">
                   <h2 className="text-[#0071bc]  text-l font-medium">お知らせ</h2>
                   <div className="text-[#0071bc]">
@@ -131,9 +129,7 @@ export default function HomePage() {
                   </div>
 
                 </div>
-                {/* Horizontal separator line */}
                 <div className="border-t border-gray-300 mb-4"></div>
-                {/* White inner box */}
                 <div className="bg-white rounded border border-gray-300">
                   {latestNews.map((item, index) => (
                     <div key={item.id}>
@@ -148,14 +144,13 @@ export default function HomePage() {
                         <p className="text-xs text-gray-500 ml-4">{item.date}</p>
                       </Link>
 
-                      {/* Separator line between items */}
                       {index < latestNews.length - 1 && (
                         <div className="border-t border-gray-200"></div>
                       )}
                     </div>
                   ))}
                 </div>
-              </div>
+              </div> */}
               <Link href="/happiness">
                 <Image
                   src="/top_inochi.jpg"

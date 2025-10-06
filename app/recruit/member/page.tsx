@@ -27,7 +27,7 @@ export default function Member() {
                 <Link href="/recruit">
                   <Image 
                     src="/logo.jpg" 
-                    alt="会社案内" 
+                    alt="image" 
                     width={300} 
                     height={200} 
                     className="rounded cursor-pointer" 
@@ -63,7 +63,7 @@ export default function Member() {
           <div id="ito" className=" mt-15 grid grid-cols-3 lg:grid-cols-3 gap-5">
             <div className="col-span-1">
               <Image src="/staff_ito.jpg" 
-                                      alt="会社案内" 
+                                      alt="image" 
                                       width={300}
                                       height={400}
                                       className="rounded"
@@ -89,7 +89,7 @@ export default function Member() {
           <div id="kojima" className=" mt-15 grid grid-cols-3 lg:grid-cols-3 gap-5">
             <div className="col-span-1">
               <Image src="/staff_kojima.jpg" 
-                                      alt="会社案内" 
+                                      alt="image" 
                                       width={300}
                                       height={400}
                                       className="rounded"
@@ -114,7 +114,7 @@ export default function Member() {
           <div id="onuma" className=" mt-15 grid grid-cols-3 lg:grid-cols-3 gap-5">
             <div className="col-span-1">
               <Image src="/staff_onuma.jpg" 
-                                      alt="会社案内" 
+                                      alt="image" 
                                       width={300}
                                       height={400}
                                       className="rounded"
@@ -140,7 +140,7 @@ export default function Member() {
           <div id="tanaka" className=" mt-15 grid grid-cols-3 lg:grid-cols-3 gap-5">
             <div className="col-span-1">
               <Image src="/staff_tanaka.jpg" 
-                                      alt="会社案内" 
+                                      alt="image" 
                                       width={300}
                                       height={400}
                                       className="rounded"
@@ -174,7 +174,7 @@ export default function Member() {
           <div id="hagiwara_jr" className=" mt-15 grid grid-cols-3 lg:grid-cols-3 gap-5">
             <div className="col-span-1">
               <Image src="/staff_hagiwara_jr.jpg" 
-                                      alt="会社案内" 
+                                      alt="image" 
                                       width={300}
                                       height={400}
                                       className="rounded"

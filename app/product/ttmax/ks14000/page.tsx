@@ -18,7 +18,7 @@ export default function ks14000Page() {
             </div>
 
             <Image src="/product_digital_ks14000_001.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={900}
                             height={256}
                             className="rounded mb-4"
@@ -45,7 +45,7 @@ export default function ks14000Page() {
             </div>
 
             <Image src="/product_digital_ks14000_002.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={900}
                             height={256}
                             className="rounded mb-4"
@@ -65,7 +65,7 @@ export default function ks14000Page() {
             </div>
 
             <Image src="/product_digital_ks14000_003.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={900}
                             height={256}
                             className="rounded mb-4"
@@ -83,7 +83,7 @@ export default function ks14000Page() {
             </div>
 
             <Image src="/product_digital_ks14000_004.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={900}
                             height={256}
                             className="rounded mb-4"
@@ -102,7 +102,7 @@ export default function ks14000Page() {
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
             <Image src="/product_digital_ks14000_005.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={900}
                             height={256}
                             className="rounded mb-4"
@@ -115,7 +115,7 @@ export default function ks14000Page() {
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
             <Image src="/product_digital_ks14000_006.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={900}
                             height={256}
                             className="rounded mb-4"
@@ -133,14 +133,14 @@ export default function ks14000Page() {
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
             <Image src="/product_digital_ks14000_007.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={400}
                             height={256}
                             className="rounded mb-4"
                           />
             <p>マットのサイズは、ほとんどの椅子にフィットするように作られています。</p>
             <Image src="/product_digital_ks14000_008.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={400}
                             height={256}
                             className="rounded mb-4 mt-4"
@@ -156,7 +156,7 @@ export default function ks14000Page() {
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
             <Image src="/product_digital_ks14000_009.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={400}
                             height={256}
                             className="rounded mb-4"
@@ -176,7 +176,7 @@ export default function ks14000Page() {
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
             <Image src="/product_digital_ks14000_010.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={600}
                             height={256}
                             className="rounded mb-4"
@@ -192,7 +192,7 @@ export default function ks14000Page() {
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
             <Image src="/product_digital_ks14000_011.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={600}
                             height={256}
                             className="rounded mb-4"
@@ -207,7 +207,7 @@ export default function ks14000Page() {
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
             <Image src="/product_digital_ks14000_012.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={200}
                             height={256}
                             className="rounded mb-4"
@@ -223,7 +223,7 @@ export default function ks14000Page() {
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
             <Image src="/product_digital_ks14000_013.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={900}
                             height={50}
                             className="rounded mb-4"

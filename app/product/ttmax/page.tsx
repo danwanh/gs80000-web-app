@@ -21,19 +21,21 @@ export default function DetailPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 gap-8">
                     <div>
                         <Image src="/gs80000.jpg" 
-                        alt="会社案内" 
+                        alt="image" 
                         width={900}
                         height={256}
-                        className="rounded mb-10"
+                        className="rounded mb-2"
                         />
+                        <p className="text-center font-bold text-xl">DIGITAL-GS-80000</p>
                     </div>
                     <div>
-                        <Image src="/product_digital_ks_001.jpg" 
-                        alt="会社案内" 
+                        <Image src="/product_digital_ks14000_001.jpg" 
+                        alt="image" 
                         width={900}
                         height={256}
-                        className="rounded mb-10"
+                        className="rounded mb-2 mt-30"
                         />
+                        <p className="text-center font-bold text-xl">DIGITAL-KS-14000</p>
                     </div>
                 </div>
 
@@ -53,7 +55,7 @@ export default function DetailPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-5 lg:grid-cols-5 gap-8">
                     <div className="lg:col-span-1">
                         <Image src="/hapi.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={100}
                             height={100}
                             />
@@ -78,7 +80,7 @@ export default function DetailPage() {
                   <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
                 </div>
                 <Image src="/gs80000_001.jpg" 
-                    alt="会社案内" 
+                    alt="image" 
                     width={400}
                     height={100}
                     className="mb-15"
@@ -89,7 +91,7 @@ export default function DetailPage() {
                   <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
                 </div>
                 <Image src="/gs80000_002.jpg" 
-                    alt="会社案内" 
+                    alt="image" 
                     width={500}
                     height={200}
                     className="mb-15"

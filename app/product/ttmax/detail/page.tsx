@@ -11,7 +11,7 @@ export default function ttmaxPage() {
               <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
             <Image src="/product_ttmax_018.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={900}
                             height={256}
                             className="rounded mb-4"
@@ -30,7 +30,7 @@ export default function ttmaxPage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 gap-8">
                   <div>
                     <Image src="/product_ttmax_019.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={900}
                             height={256}
                             className="rounded mb-4"
@@ -46,7 +46,7 @@ export default function ttmaxPage() {
                   </div>
                   <div>
                       <Image src="/product_ttmax_029.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={900}
                             height={256}
                             className="rounded mb-4"
@@ -61,7 +61,7 @@ export default function ttmaxPage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 gap-8">
                   <div>
                     <Image src="/product_ttmax_020.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={900}
                             height={256}
                             className="rounded mb-4"
@@ -104,7 +104,7 @@ export default function ttmaxPage() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 mb-10">
                   <div>
                     <Image src="/product_ttmax_026_01.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={200}
                             height={200}
                             className="rounded mb-4"
@@ -151,7 +151,7 @@ export default function ttmaxPage() {
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
             <Image src="/product_digital_ks14000_012.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={200}
                             height={256}
                             className="rounded mb-4"
@@ -167,7 +167,7 @@ export default function ttmaxPage() {
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
             <Image src="/product_digital_ks14000_013.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={900}
                             height={50}
                             className="rounded mb-4"

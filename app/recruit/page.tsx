@@ -63,7 +63,7 @@ export default function Recruit() {
               <Link href="/recruit">
                 <Image 
                   src="/logo.jpg" 
-                  alt="会社案内" 
+                  alt="image" 
                   width={300} 
                   height={200} 
                   className="rounded cursor-pointer" 
@@ -386,7 +386,7 @@ export default function Recruit() {
           <div className="max-w-7xl mx-auto sm:px-12 lg:px-16 py-16 grid grid-cols-3 lg:grid-cols-3 gap-5">
             <div className="col-span-1">
               <Image src="/staff_ito.jpg" 
-                        alt="会社案内" 
+                        alt="image" 
                         width={300}
                         height={400}
                         className="rounded"
@@ -430,7 +430,7 @@ export default function Recruit() {
             </div>
             <div className="col-span-1 mb-20">
               <Image src="/staff_kojima.jpg" 
-                        alt="会社案内" 
+                        alt="image" 
                         width={300}
                         height={400}
                         className="rounded"
@@ -443,7 +443,7 @@ export default function Recruit() {
           <div className="max-w-7xl mx-auto sm:px-12 lg:px-16 py-16 grid grid-cols-3 lg:grid-cols-3 gap-5">
             <div className="col-span-1 mb-20">
               <Image src="/staff_onuma.jpg" 
-                        alt="会社案内" 
+                        alt="image" 
                         width={300}
                         height={400}
                         className="rounded"
@@ -486,7 +486,7 @@ export default function Recruit() {
             </div>
             <div className="col-span-1 mb-20">
               <Image src="/staff_tanaka.jpg" 
-                        alt="会社案内" 
+                        alt="image" 
                         width={300}
                         height={400}
                         className="rounded"
@@ -500,7 +500,7 @@ export default function Recruit() {
           <div className="max-w-7xl mx-auto sm:px-12 lg:px-16 py-16 grid grid-cols-3 lg:grid-cols-3 gap-5">
             <div className="col-span-1 mb-20">
               <Image src="/staff_hagiwara_jr.jpg" 
-                        alt="会社案内" 
+                        alt="image" 
                         width={300}
                         height={400}
                         className="rounded"
@@ -549,7 +549,7 @@ export default function Recruit() {
               <h1 className="text-[#0071bc] text-xl font-bold mb-5">１、新入社員研修</h1>
               <p>＜ 新入社員スケジュール ＞</p>
               <Image src="/work_006.png" 
-                        alt="会社案内" 
+                        alt="image" 
                         width={800}
                         height={800}
                         className="rounded mb-5"
@@ -559,7 +559,7 @@ export default function Recruit() {
                 <div className="col-span-1">
                   <p>基礎研修</p>
                   <Image src="/work_001.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={400}
                             height={400}
                             className="rounded mb-5"
@@ -582,7 +582,7 @@ export default function Recruit() {
                 <div className="col-span-1">
                   <p>実習</p>
                   <Image src="/work_002.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={400}
                             height={400}
                             className="rounded mb-5"
@@ -606,7 +606,7 @@ export default function Recruit() {
                 <div className="col-span-1">
                   <p>店舗配属</p>
                   <Image src="/work_003.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={400}
                             height={400}
                             className="rounded mb-5"
@@ -634,7 +634,7 @@ export default function Recruit() {
             <div className="grid grid-cols-2 lg:grid-cols-2 gap-8 mt-10">
               <div className="col-span-1">
                 <Image src="/work_004.jpg" 
-                          alt="会社案内" 
+                          alt="image" 
                           width={400}
                           height={400}
                           className="rounded mb-5"
@@ -642,7 +642,7 @@ export default function Recruit() {
               </div>
               <div className="col-span-1">
                 <Image src="/work_005.jpg" 
-                          alt="会社案内" 
+                          alt="image" 
                           width={400}
                           height={400}
                           className="rounded mb-5"
@@ -661,7 +661,7 @@ export default function Recruit() {
               </div>
               <div className="col-span-1">
                 <Image src="/work_009.jpg" 
-                          alt="会社案内" 
+                          alt="image" 
                           width={400}
                           height={400}
                           className="rounded mb-5"
@@ -688,7 +688,7 @@ export default function Recruit() {
                 </div>
                 <div className="col-span-1">
                   <Image src="/work_013.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={400}
                             height={400}
                             className="rounded mb-5"
@@ -711,7 +711,7 @@ export default function Recruit() {
                 </div>
                 <div className="col-span-1">
                   <Image src="/company_055_05.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={400}
                             height={400}
                             className="rounded mb-5"
@@ -743,7 +743,7 @@ export default function Recruit() {
 
                 <div className="col-span-1">
                   <Image src="/tayou.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={200}
                             height={200}
                             className="rounded mb-5"
@@ -835,7 +835,7 @@ export default function Recruit() {
                 <div className="col-span-1">
                   <p className="font-bold">出産後仕事に復帰している社員の声</p> <br/>
                   <Image src="/work_007.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={400}
                             height={400}
                             className="rounded mb-5"
@@ -858,7 +858,7 @@ export default function Recruit() {
                 <div className="col-span-1">
                   <p className="font-bold">育休を取得した男性社員の声</p> <br/>
                   <Image src="/work_014.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={400}
                             height={400}
                             className="rounded mb-5"
@@ -906,7 +906,7 @@ export default function Recruit() {
 
                 <div className="col-span-1">
                   <Image src="/work_010.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={400}
                             height={400}
                             className="rounded mb-5"
@@ -931,7 +931,7 @@ export default function Recruit() {
 
                 <div className="col-span-1">
                   <Image src="/work_011.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={400}
                             height={400}
                             className="rounded mb-5"
@@ -956,7 +956,7 @@ export default function Recruit() {
 
                 <div className="col-span-1">
                   <Image src="/work_012.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={400}
                             height={400}
                             className="rounded mb-5"
@@ -1002,7 +1002,7 @@ export default function Recruit() {
             </div>
           <div className="col-span-1">
               <Image src="/work_008.jpg" 
-                          alt="会社案内" 
+                          alt="image" 
                           width={400}
                           height={400}
                           className="rounded mb-5"

@@ -27,7 +27,7 @@ export default function History() {
                 <Link href="/recruit">
                     <Image 
                         src="/logo.jpg" 
-                        alt="会社案内" 
+                        alt="image" 
                         width={300} 
                         height={200} 
                         className="rounded cursor-pointer" 
@@ -123,7 +123,7 @@ export default function History() {
                             自社ビル完成<br />
                             社員旅行　北海道　海外研修旅行　ロス・ラスベガス
                             <Image src="/history_1995_01.jpg" 
-                                alt="会社案内" 
+                                alt="image" 
                                 width={200}
                                 height={200}
                                 />
@@ -135,7 +135,7 @@ export default function History() {
                         <div className="col-span-4">
                             社員旅行　韓国　海外研修旅行　オーストラリア
                             <Image src="/history_1996_01.jpg" 
-                                alt="会社案内" 
+                                alt="image" 
                                 width={200}
                                 height={200}
                                 />
@@ -158,7 +158,7 @@ export default function History() {
                             ショールーム「ハピネスプラザ」関東圏に拡大<br />
                             長野オリンピックへ社員旅行
                             <Image src="/history_1998_01.jpg" 
-                                alt="会社案内" 
+                                alt="image" 
                                 width={200}
                                 height={200}
                                 />
@@ -170,7 +170,7 @@ export default function History() {
                         <div className="col-span-4">
                             海外研修旅行　ニューヨーク・カナダ
                             <Image src="/history_1999_01.jpg" 
-                                alt="会社案内" 
+                                alt="image" 
                                 width={200}
                                 height={200}
                                 />
@@ -183,12 +183,12 @@ export default function History() {
                             海外研修旅行　ドバイ
                             <div>
                             <Image src="/history_2000_01.jpg" 
-                                alt="会社案内" 
+                                alt="image" 
                                 width={200}
                                 height={200}
                                 />
                             <Image src="/history_2000_02.jpg" 
-                                alt="会社案内" 
+                                alt="image" 
                                 width={200}
                                 height={200}
                                 />
@@ -209,7 +209,7 @@ export default function History() {
                             海外研修旅行　中国<br />
                             創立15周年
                             <Image src="/history_2002_01.jpg" 
-                                alt="会社案内" 
+                                alt="image" 
                                 width={200}
                                 height={200}
                                 />
@@ -230,7 +230,7 @@ export default function History() {
                         <div className="col-span-4">
                             海外研修旅行　ロス・ラスベガス
                             <Image src="/history_1995_02.jpg" 
-                                alt="会社案内" 
+                                alt="image" 
                                 width={200}
                                 height={200}
                                 />
@@ -298,7 +298,7 @@ export default function History() {
                            世界初のデジタル高電位治療器発売<br />
                             海外研修旅行　カナダロッキー
                             <Image src="/history_2016_01.jpg" 
-                                alt="会社案内" 
+                                alt="image" 
                                 width={200}
                                 height={200}
                                 />
@@ -310,7 +310,7 @@ export default function History() {
                         <div className="col-span-4">
                             <span className="text-red-500 font-bold">創立30周年</span><br />
                             <Image src="/history_2017_01.jpg" 
-                                alt="会社案内" 
+                                alt="image" 
                                 width={200}
                                 height={200}
                                 />
@@ -323,7 +323,7 @@ export default function History() {
                         <div className="col-span-4">
                             海外研修旅行　ロシア
                             <Image src="/history_2018_01.jpg" 
-                                alt="会社案内" 
+                                alt="image" 
                                 width={200}
                                 height={200}
                                 />

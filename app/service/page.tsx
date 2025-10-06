@@ -60,13 +60,13 @@ export default function ServicePage() {
                     <p className="mb-2">
                         ウェルネス市場におけるブランドとして「メディカル」「サプリ」「ビューティ」「エコ」など、豊かな人生、輝く人生を目指すための製品開発を行っていきます。
                     </p>
-                    <Link
+                    {/* <Link
                         href="/product"
                         className="text-[#0071bc] underline decoration-dotted underline-offset-2 hover:text-green-800"
                         target="_blank"
                     >
                         » 自社ブランド
-                    </Link>
+                    </Link> */}
                 </div>
 
 

@@ -28,6 +28,7 @@ const productsDetails: NavigationItem[] = [
     subItems: [
       { title: "TT-MAX8詳細", href: "/product/ttmax/detail" },
       { title: "DIGITAL-KS-14000詳細", href: "/product/ttmax/ks14000" },
+      { title: "DIGITAL-GS-80000詳細", href: "/product/gs80000" },
       { title: "こんな方にお勧め", href: "/product/ttmax/recommend" },
       { title: "よくあるご質問", href: "/product/ttmax/faq" },
       { title: "使用上のご注意", href: "/product/ttmax/precaution" },

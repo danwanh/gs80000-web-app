@@ -13,7 +13,7 @@ export default function Info17Page() {
             <p className="text-right mb-5">2025/04/09</p>
             
             <Image src="/info_017.png" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={900}
                             height={256}
                             className="rounded mb-4"

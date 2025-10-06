@@ -20,7 +20,7 @@ export default function Info3Page() {
                 <p>【担当者からのコメント】</p>
                 <p> 総勢45名のたくさんのお客様にご参加頂き、とても楽しい一日を共に過ごさせて頂きました。</p>
                 <Image src="/info_003.png" 
-                                alt="会社案内" 
+                                alt="image" 
                                 width={800}
                                 height={256}
                                 className="rounded mb-4"

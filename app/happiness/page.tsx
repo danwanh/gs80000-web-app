@@ -13,7 +13,7 @@ export default function DetailPage() {
               <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
             <Image src="/happiness_001.jpg" 
-                        alt="会社案内" 
+                        alt="image" 
                         width={900}
                         height={256}
                         className="rounded mb-10"
@@ -44,7 +44,7 @@ export default function DetailPage() {
                     
                     <div className="col-span-1">
                         <Image src="/happiness_hirakawa-225x300.jpg" 
-                        alt="会社案内" 
+                        alt="image" 
                         width={900}
                         height={256}
                         className="rounded mb-10"
@@ -244,7 +244,7 @@ export default function DetailPage() {
                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 gap-8">
                             <div className="col-span-1">
                                 <Image src="/company_033.jpg" 
-                                alt="会社案内" 
+                                alt="image" 
                                 width={300}
                                 height={100}
                                 className="rounded"
@@ -281,7 +281,7 @@ export default function DetailPage() {
                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 gap-8">
                             <div className="col-span-1">
                                 <Image src="/company_034.jpg" 
-                                alt="会社案内" 
+                                alt="image" 
                                 width={300}
                                 height={100}
                                 className="rounded"
@@ -306,7 +306,7 @@ export default function DetailPage() {
                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 gap-8">
                             <div className="col-span-1">
                                 <Image src="/company_035.jpg" 
-                                alt="会社案内" 
+                                alt="image" 
                                 width={300}
                                 height={100}
                                 className="rounded"
@@ -351,7 +351,7 @@ export default function DetailPage() {
                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 gap-4">
                             <div className="col-span-1">
                                 <Image src="/company_036.jpg" 
-                                alt="会社案内" 
+                                alt="image" 
                                 width={300}
                                 height={100}
                                 className="rounded"

@@ -42,7 +42,7 @@ const profile = [
             ))}
         </div>
         <Image src="/company_041.jpg" 
-            alt="会社案内" 
+            alt="image" 
             width={200}
             height={256}
             className="rounded mb-4"

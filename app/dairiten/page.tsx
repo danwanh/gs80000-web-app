@@ -56,7 +56,7 @@ export default function DairitenPage() {
             <p className="mb-5">電位治療器を主体とした店舗を運営いただける方。</p>
             
             <Image src="/dairiten_003.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={600}
                             height={256}
                             className="rounded mb-4"
@@ -64,7 +64,7 @@ export default function DairitenPage() {
             <p className="ml-10 mb-5">治療効果を最大限に発揮するための機能、安心して使える品質と保証制度を十分に兼ね備えた商品を揃えています。</p>
             
             <Image src="/dairiten_004.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={600}
                             height={256}
                             className="rounded mb-4"
@@ -72,7 +72,7 @@ export default function DairitenPage() {
             <p className="ml-10 mb-5">ショッピングモール、路面店等でのあらゆる店舗形態に適応したノウハウで確実に業績UPが可能です。</p>
             
             <Image src="/dairiten_005.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={600}
                             height={256}
                             className="rounded mb-4"
@@ -92,7 +92,7 @@ export default function DairitenPage() {
                   <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
                 </div>
                 <Image src="/dairiten_tel.jpg" 
-                                            alt="会社案内" 
+                                            alt="image" 
                                             width={400}
                                             height={256}
                                             className="rounded mb-4 ml-15"

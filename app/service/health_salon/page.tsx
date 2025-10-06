@@ -386,7 +386,7 @@ export default function MedicalPage() {
                             ))}
                             </div>
                             <Image src="/service_plaza_01.jpg" 
-                                    alt="会社案内" 
+                                    alt="image" 
                                     width={800}
                                     height={50}
                                     className="rounded mb-4"

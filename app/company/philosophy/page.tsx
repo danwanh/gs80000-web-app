@@ -29,7 +29,7 @@ export default function PhisolophyPage() {
               <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
             <Image src="/company_014.jpg" 
-              alt="会社案内" 
+              alt="image" 
               width={900}
               height={128}
               className="rounded mb-4"
@@ -54,7 +54,7 @@ export default function PhisolophyPage() {
             </div>
             <p>企業理念・ビジョン・行動指針の全体像</p>
             <Image src="/company_022.jpg" 
-              alt="会社案内" 
+              alt="image" 
               width={600}
               height={256}
               className="rounded mb-4"
@@ -91,7 +91,7 @@ export default function PhisolophyPage() {
               </div>
               <p>ＮＳＤでは、体感型ショールーム「ハピネスプラザ」を運営しているプラザ運営事業を中核に置き、安全で効果性の高い機能を備えた治療器の開発と普及を行っている医療機器事業、毎日の健康を支えるサプリメント事業、通信販売事業など、健康増進分野で新たな価値と常に期待を超える感動を創造しています。</p>
               <Image src="/company_026.jpg" 
-                alt="会社案内" 
+                alt="image" 
                 width={600}
                 height={256}
                 className="rounded mb-4"

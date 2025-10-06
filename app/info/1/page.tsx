@@ -13,7 +13,7 @@ export default function Info1Page() {
             <p className="text-right">2024/05/13</p>
             
             <Image src="/info_001.jpg" 
-                            alt="会社案内" 
+                            alt="image" 
                             width={800}
                             height={256}
                             className="rounded mb-4"

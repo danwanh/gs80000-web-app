@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function ProfilePage() {
 const profile = [
-  { label: "商号", value: "NIPPON GROUP" },
+  { label: "商号", value: "(NIPPON GROUP)" },
   { label: "本社所在地", value: "〒337-0051　埼玉県さいたま市見沼区東大宮6-36-16" },
   { label: "TEL", value: "048-683-2977" },
   { label: "FAX", value: "048-683-2978" },

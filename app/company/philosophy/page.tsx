@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function PhisolophyPage() {
   const events = [
-    { date: "1987年7月", text: "埼玉県さいたま市にNIPPON GROUPを設立\n電位治療器の販売の開始" },
+    { date: "1987年7月", text: "埼玉県さいたま市に(NIPPON GROUP)を設立\n電位治療器の販売の開始" },
     { date: "1990年5月", text: "直販体制の強化と業務拡大のためさいたま市見沼区へ本社移転" },
     { date: "1995年3月", text: "ＮＳＤ本社ビル完成" },
     { date: "1997年3月", text: "代理店制度開始" },

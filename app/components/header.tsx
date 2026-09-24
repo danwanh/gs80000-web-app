@@ -86,7 +86,7 @@ export default function Header() {
                     className="h-auto w-14 rounded sm:w-16 lg:w-20"
                     />
                 <span className="whitespace-nowrap text-sm font-bold tracking-wide text-[#0071bc] sm:text-base lg:text-lg">
-                  NIPPON GROUP
+                  (NIPPON GROUP)
                 </span>
               </Link>
             </div>

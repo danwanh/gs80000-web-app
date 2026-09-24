@@ -236,7 +236,7 @@ export default function Member() {
 
         {/* Company Info */}
         <div className="text-sm leading-6 mb-6">
-          <p className="font-bold">NIPPON GROUP</p>
+          <p className="font-bold">(NIPPON GROUP)</p>
           <p>〒337-0051 埼玉県さいたま市見沼区</p>
           <p>東大宮6-36-16</p>
           <p>TEL：048-683-2977</p>

@@ -31,7 +31,7 @@ export default function GreetingPage() {
                 <p>これからも皆様のご支援賜りますよう<br/>
                 哀心よりお願い申し上げます。</p>
 
-                <p>NIPPON GROUP<br/>
+                <p>(NIPPON GROUP)<br/>
                 代表取締役社長　髙橋 裕久</p>
             </div>
         </div>

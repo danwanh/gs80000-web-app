@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <div className="space-y-2 text-gray-600">
               <Link href="/service/medical_equipment" className="text-[#0071bc] font-medium">
-                NIPPON GROUP
+                (NIPPON GROUP)
               </Link>
               <p className="mt-2">〒123-4567</p>
               <p>埼玉県さいたま市見沼区東大宮6-36-16</p>

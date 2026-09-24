@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 export default function ProductPage() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-4 lg:grid-cols-4 gap-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-1 lg:grid-cols-4 gap-8">
       <div className="lg:col-span-3">
         <div>
             {/* Header bar */}
@@ -16,7 +16,7 @@ export default function ProductPage() {
                             alt="image" 
                             width={900}
                             height={256}
-                            className="rounded mb-10"
+                             className="w-full max-w-full h-auto rounded mb-10"
                             />
             <div className="ml-5">
                 {/* Sub header bar */}
@@ -40,7 +40,7 @@ export default function ProductPage() {
                             alt="image" 
                             width={200}
                             height={256}
-                            className=""
+                             className="w-full max-w-full h-auto"
                             />
                     </div>
                     <div className="col-span-3 space-y-5">

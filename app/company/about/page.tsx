@@ -108,7 +108,7 @@ export default function AboutPage() {
               {/* <div id="history">
                 <div className="max-w-3xl mx-auto mb-10">
                   {events.map((event, index) => (
-                  <div key={index} className="grid grid-cols-5 gap-2">
+                  <div key={index} className="grid grid-cols-1 sm:grid-cols-5 gap-2">
                     <div className="text-gray-700 font-bold py-4">{event.date}</div>
                     <div
                       className={`col-span-4 whitespace-pre-line text-gray-800 py-4 ${

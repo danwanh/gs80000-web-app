@@ -14,7 +14,7 @@ export default function ttmaxPage() {
                             alt="image" 
                             width={900}
                             height={256}
-                            className="rounded mb-4"
+                            className="w-full max-w-full h-auto rounded mb-4"
                           />
 
             {/* Sub header bar */}
@@ -27,13 +27,13 @@ export default function ttmaxPage() {
                 <h4 className="ml-2 text-black font-bold text-lg">【１】　正負１対３の安定した高圧電位出力で治療効果</h4>
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 gap-8">
+             <div className="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8 py-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
                   <div>
                     <Image src="/product_ttmax_019.jpg" 
                             alt="image" 
                             width={900}
                             height={256}
-                            className="rounded mb-4"
+                            className="w-full max-w-full h-auto rounded mb-4"
                           />
                   </div>
                   <div className="space-y-5">
@@ -49,7 +49,7 @@ export default function ttmaxPage() {
                             alt="image" 
                             width={900}
                             height={256}
-                            className="rounded mb-4"
+                            className="w-full max-w-full h-auto rounded mb-4"
                           />
                   </div>
             </div>
@@ -58,13 +58,13 @@ export default function ttmaxPage() {
                 <h4 className="ml-2 text-black font-bold text-lg">【２】　だんだんと強くカラダにやさしい使い心地</h4>
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 gap-8">
+             <div className="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8 py-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
                   <div>
                     <Image src="/product_ttmax_020.jpg" 
                             alt="image" 
                             width={900}
                             height={256}
-                            className="rounded mb-4"
+                            className="w-full max-w-full h-auto rounded mb-4"
                           />
                   </div>
                   <div className="space-y-5">
@@ -101,13 +101,13 @@ export default function ttmaxPage() {
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
 
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 mb-10">
+            <div className="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8 py-8 grid grid-cols-1 sm:grid-cols-2 mb-10">
                   <div>
                     <Image src="/product_ttmax_026_01.jpg" 
                             alt="image" 
                             width={200}
                             height={200}
-                            className="rounded mb-4"
+                            className="w-full max-w-full h-auto rounded mb-4"
                           />
                   </div>
                   <div className="space-y-5">
@@ -154,7 +154,7 @@ export default function ttmaxPage() {
                             alt="image" 
                             width={200}
                             height={256}
-                            className="rounded mb-4"
+                            className="w-full max-w-full h-auto rounded mb-4"
                           />
             <p>     
                 電気代は、なんと1日に約2円程度に。<br></br>
@@ -170,7 +170,7 @@ export default function ttmaxPage() {
                             alt="image" 
                             width={900}
                             height={50}
-                            className="rounded mb-4"
+                            className="w-full max-w-full h-auto rounded mb-4"
                           />
             <p>     
                 本体は 1 0 年、部品は３年の充実した保証期間です。

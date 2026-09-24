@@ -433,7 +433,7 @@ export default function MedicalPage() {
                             <hr className="border-t-2 border-gray-800 mb-10" />
                             <div className="space-y-6">
                             {branches.tokyo.map((branch, index) => (
-                                <div key={index} className="grid grid-cols-4 gap-4">
+                                <div key={index} className="grid grid-cols-1 sm:grid-cols-4 gap-4">
                                 <div className="col-span-1 font-bold">{branch.name}</div>
 
                                 <div className="col-span-3 space-y-2">
@@ -460,7 +460,7 @@ export default function MedicalPage() {
                             <hr className="border-t-2 border-gray-800 mb-10" />
                             <div className="space-y-6">
                             {branches.kanagawa.map((branch, index) => (
-                                <div key={index} className="grid grid-cols-4 gap-4">
+                                <div key={index} className="grid grid-cols-1 sm:grid-cols-4 gap-4">
                                 <div className="col-span-1 font-bold">{branch.name}</div>
 
                                 <div className="col-span-3 space-y-2">
@@ -488,7 +488,7 @@ export default function MedicalPage() {
                             <hr className="border-t-2 border-gray-800 mb-10" />
                             <div className="space-y-6">
                             {branches.saitama.map((branch, index) => (
-                                <div key={index} className="grid grid-cols-4 gap-4">
+                                <div key={index} className="grid grid-cols-1 sm:grid-cols-4 gap-4">
                                 <div className="col-span-1 font-bold">{branch.name}</div>
 
                                 <div className="col-span-3 space-y-2">
@@ -515,7 +515,7 @@ export default function MedicalPage() {
                             <hr className="border-t-2 border-gray-800 mb-10" />
                             <div className="space-y-6">
                             {branches.chiba.map((branch, index) => (
-                                <div key={index} className="grid grid-cols-4 gap-4">
+                                <div key={index} className="grid grid-cols-1 sm:grid-cols-4 gap-4">
                                 <div className="col-span-1 font-bold">{branch.name}</div>
 
                                 <div className="col-span-3 space-y-2">

@@ -59,7 +59,7 @@ export default function DairitenPage() {
                             alt="image" 
                             width={600}
                             height={256}
-                            className="rounded mb-4"
+                            className="w-full max-w-full h-auto rounded mb-4"
                           />
             <p className="ml-10 mb-5">治療効果を最大限に発揮するための機能、安心して使える品質と保証制度を十分に兼ね備えた商品を揃えています。</p>
             
@@ -67,7 +67,7 @@ export default function DairitenPage() {
                             alt="image" 
                             width={600}
                             height={256}
-                            className="rounded mb-4"
+                            className="w-full max-w-full h-auto rounded mb-4"
                           />
             <p className="ml-10 mb-5">ショッピングモール、路面店等でのあらゆる店舗形態に適応したノウハウで確実に業績UPが可能です。</p>
             
@@ -75,7 +75,7 @@ export default function DairitenPage() {
                             alt="image" 
                             width={600}
                             height={256}
-                            className="rounded mb-4"
+                            className="w-full max-w-full h-auto rounded mb-4"
                           />
             <p className="ml-10 mb-2">製品カタログをはじめ、チラシ、ポップ等の営業ツールをご用意いたします。</p>
             <p className="ml-10 mb-10">また、当社ビジネスモデルの活用により安心してスタートが可能です。</p>
@@ -95,7 +95,7 @@ export default function DairitenPage() {
                                             alt="image" 
                                             width={400}
                                             height={256}
-                                            className="rounded mb-4 ml-15"
+                                             className="w-full max-w-full h-auto rounded mb-4 ml-0 sm:ml-15"
                                         />           
             </div>
 

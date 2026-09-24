@@ -59,7 +59,7 @@ export default function DetailPage() {
                 </div>
                 <div className="max-w-3xl mx-auto mb-10 ml-5">
                 {happiness.map((event, index) => (
-                    <div key={event.id} className="grid grid-cols-5 gap-2">
+                    <div key={event.id} className="grid grid-cols-1 sm:grid-cols-5 gap-2">
                     {/* Date */}
                     <div className="text-gray-700 font-bold py-4">{event.date}</div>
 
@@ -232,7 +232,7 @@ export default function DetailPage() {
                 </div>
 
 
-                <div className="grid grid-cols-5 gap-2">
+                <div className="grid grid-cols-1 sm:grid-cols-5 gap-2">
                     {/* Date */}
                     <div className="text-gray-700 font-bold py-4">1995年3月</div>
                     {/* Event */}
@@ -241,7 +241,7 @@ export default function DetailPage() {
                             阪神大震災被災者への寄与に対し、日本赤十字社埼玉支部長 <br></br>
                             埼玉県知事：土屋義彦氏より感謝状の贈呈を受ける
                         </p>
-                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 gap-8">
+                        <div className="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8 py-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
                             <div className="col-span-1">
                                 <Image src="/company_033.jpg" 
                                 alt="image" 
@@ -278,7 +278,7 @@ export default function DetailPage() {
                         <p>
                             新潟県中越地震災害義援金を日本赤十字社埼玉支部を通して被災者へ寄与
                         </p>
-                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 gap-8">
+                        <div className="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8 py-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
                             <div className="col-span-1">
                                 <Image src="/company_034.jpg" 
                                 alt="image" 
@@ -303,7 +303,7 @@ export default function DetailPage() {
                         <p>
                             東日本大震災被災者への支援活動
                         </p>
-                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 gap-8">
+                        <div className="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8 py-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
                             <div className="col-span-1">
                                 <Image src="/company_035.jpg" 
                                 alt="image" 
@@ -348,7 +348,7 @@ export default function DetailPage() {
                         <p>
                             その他　清掃活動
                         </p>
-                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 gap-4">
+                        <div className="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8 py-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <div className="col-span-1">
                                 <Image src="/company_036.jpg" 
                                 alt="image" 

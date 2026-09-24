@@ -70,14 +70,14 @@ export default function History() {
             {/* Table */}
             <div className="max-w-3xl mx-auto py-8">
                 <div className="space-y-6">
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">1985年</div>
                         <div className="col-span-4">
                             <span className="text-red-500 font-bold">創業</span>　4名
                         </div>
                         </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">1987年</div>
                         <div className="col-span-4">
                             <span className="text-red-500 font-bold">設立</span>　日本スーパー電子(株)<br />
@@ -85,7 +85,7 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">1990年</div>
                         <div className="col-span-4">
                             <span className="text-red-500 font-bold">転換</span><br />
@@ -93,22 +93,22 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">1991年</div>
                         <div className="col-span-4">社員旅行　香港</div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">1992年</div>
                         <div className="col-span-4">社員旅行　グアム</div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">1993年</div>
                         <div className="col-span-4">社員旅行　台湾</div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">1994年</div>
                         <div className="col-span-4">
                             <span className="text-red-500 font-bold">快進</span><br />
@@ -117,7 +117,7 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">1995年</div>
                         <div className="col-span-4">
                             自社ビル完成<br />
@@ -130,7 +130,7 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">1996年</div>
                         <div className="col-span-4">
                             社員旅行　韓国　海外研修旅行　オーストラリア
@@ -142,7 +142,7 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">1997年</div>
                         <div className="col-span-4">
                             <span className="text-red-500 font-bold">転機</span><br />
@@ -151,7 +151,7 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">1998年</div>
                         <div className="col-span-4">
                             <span className="text-red-500 font-bold">快調</span><br />
@@ -165,7 +165,7 @@ export default function History() {
                         </div>
                     </div>
                     
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">1999年</div>
                         <div className="col-span-4">
                             海外研修旅行　ニューヨーク・カナダ
@@ -177,7 +177,7 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">2000年</div>
                         <div className="col-span-4">
                             海外研修旅行　ドバイ
@@ -196,14 +196,14 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">2001年</div>
                         <div className="col-span-4">
                             社員旅行　北海道　海外研修旅行　アラスカオーロラ観賞
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">2002年</div>
                         <div className="col-span-4">
                             海外研修旅行　中国<br />
@@ -216,7 +216,7 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">2003年</div>
                         <div className="col-span-4">
                             <span className="text-red-500 font-bold">開花</span><br />
@@ -225,7 +225,7 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">2004年</div>
                         <div className="col-span-4">
                             海外研修旅行　ロス・ラスベガス
@@ -237,14 +237,14 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">2005年</div>
                         <div className="col-span-4">
                             海外研修旅行　韓国
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">2006年</div>
                         <div className="col-span-4">
                             自社ブランド新製品発売<br />
@@ -252,7 +252,7 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">2008年</div>
                         <div className="col-span-4">
                             <span className="text-red-500 font-bold">変革</span><br />
@@ -261,7 +261,7 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">2009年</div>
                         <div className="col-span-4">
                             <span className="text-red-500 font-bold">試練</span><br />
@@ -269,14 +269,14 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">2010年</div>
                         <div className="col-span-4">
                             通販開始
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">2012年</div>
                         <div className="col-span-4">
                             <span className="text-red-500 font-bold">挑戦</span><br />
@@ -285,14 +285,14 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">2013年</div>
                         <div className="col-span-4">
                             海外研修旅行　イタリア
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">2016年</div>
                         <div className="col-span-4">
                            世界初のデジタル高電位治療器発売<br />
@@ -305,7 +305,7 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">2017年</div>
                         <div className="col-span-4">
                             <span className="text-red-500 font-bold">創立30周年</span><br />
@@ -318,7 +318,7 @@ export default function History() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-5 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-5 gap-4">
                         <div className="font-bold text-gray-700">2018年</div>
                         <div className="col-span-4">
                             海外研修旅行　ロシア

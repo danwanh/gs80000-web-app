@@ -18,13 +18,13 @@ export default function DetailPage() {
 
             </div>
             <div className="ml-5">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 gap-8">
+                <div className="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8 py-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
                     <div>
                         <Image src="/gs80000.jpg" 
                         alt="image" 
                         width={900}
                         height={256}
-                        className="rounded mb-2"
+                         className="w-full max-w-full h-auto rounded mb-2"
                         />
                         <p className="text-center font-bold text-xl">DIGITAL-GS-80000</p>
                     </div>
@@ -33,7 +33,7 @@ export default function DetailPage() {
                         alt="image" 
                         width={900}
                         height={256}
-                        className="rounded mb-2 mt-30"
+                         className="w-full max-w-full h-auto rounded mb-2 mt-8 sm:mt-30"
                         />
                         <p className="text-center font-bold text-xl">DIGITAL-KS-14000</p>
                     </div>
@@ -52,7 +52,7 @@ export default function DetailPage() {
                   <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
                 </div>
 
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-5 lg:grid-cols-5 gap-8">
+                <div className="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8 py-8 grid grid-cols-1 sm:grid-cols-5 gap-8">
                     <div className="lg:col-span-1">
                         <Image src="/hapi.jpg" 
                             alt="image" 

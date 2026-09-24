@@ -14,19 +14,19 @@ export default function gs80000Page() {
                             alt="image" 
                             width={500}
                             height={256}
-                            className="ml-50 rounded mb-4"
+                            className="w-full max-w-full h-auto rounded mb-4"
                           />
             <div className="bg-gray-100 border-l-4 border-l-[#0071bc] border-b-4 border-b-gray-300 p-2 mb-10">
                 <h3 className="text-[#0071bc] font-bold text-lg">豊富な治療モードを搭載</h3>
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 gap-8">
+             <div className="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8 py-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
                 <div>
                 <Image src="/product_ttmax_019.jpg" 
                         alt="image" 
                         width={900}
                         height={256}
-                        className="rounded mb-4"
+                         className="w-full max-w-full h-auto rounded mb-4"
                         />
                 </div>
                 <div className="space-y-5">
@@ -42,7 +42,7 @@ export default function gs80000Page() {
                         alt="image" 
                         width={900}
                         height={256}
-                        className="rounded mb-4"
+                         className="w-full max-w-full h-auto rounded mb-4"
                         />
                 </div>
             </div>
@@ -53,13 +53,13 @@ export default function gs80000Page() {
                 <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
 
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 lg:grid-cols-2 mb-10">
+             <div className="max-w-7xl mx-auto px-0 sm:px-6 lg:px-8 py-8 grid grid-cols-1 sm:grid-cols-2 mb-10">
                   <div>
                     <Image src="/gs80000_004.jpg" 
                             alt="image" 
                             width={300}
                             height={300}
-                            className="rounded mb-4"
+                            className="w-full max-w-full h-auto rounded mb-4"
                           />
                   </div>
                   <div className="space-y-5">

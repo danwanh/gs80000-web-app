@@ -1,7 +1,9 @@
-import { ChevronRight } from "lucide-react"
+"use client"
+
+import { ChevronRight, Menu, X } from "lucide-react"
 import Link from "next/link"
-import { news } from "../data/news"
 import Image from "next/image"
+import { useState } from "react"
 
 interface NavigationItem {
   title: string
@@ -48,10 +50,19 @@ const productsDetails: NavigationItem[] = [
 ]
 
 export default function Sidebar() {
-  const latestNews = [...news].sort((a, b) => b.id - a.id).slice(0, 3)
-
+  const [isOpen, setIsOpen] = useState(false)
   return (
-    <div className= "space-y-5 ml-5">
+    <aside className="lg:ml-5">
+      <button
+        type="button"
+        onClick={() => setIsOpen((open) => !open)}
+        aria-expanded={isOpen}
+        className="mb-4 flex w-full items-center justify-between rounded border border-[#0071bc] bg-white px-4 py-3 text-left font-medium text-[#0071bc] shadow-sm lg:hidden"
+      >
+        <span className="flex items-center gap-2"><Menu className="h-5 w-5" />メニュー</span>
+        {isOpen ? <X className="h-5 w-5" /> : <ChevronRight className="h-5 w-5" />}
+      </button>
+      <div className={`${isOpen ? "block" : "hidden"} space-y-5 lg:block`}>
       {/* <div className="bg-gray-100 border border-gray-200 p-3 shadow-sm space-10">
         <div className="flex justify-between">
           <h2 className="text-[#0071bc]  text-l font-medium">お知らせ</h2>
@@ -241,7 +252,8 @@ export default function Sidebar() {
             />
             </Link>
       </div>
-  </div>
+      </div>
+    </aside>
     
   )
 }

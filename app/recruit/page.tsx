@@ -555,7 +555,7 @@ export default function Recruit() {
                         className="rounded mb-5"
                       />
 
-              <div className="grid grid-cols-2 lg:grid-cols-2 gap-8 mb-10">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-10">
                 <div className="col-span-1">
                   <p>基礎研修</p>
                   <Image src="/work_001.jpg" 
@@ -578,7 +578,7 @@ export default function Recruit() {
               </div>
 
 
-              <div className="grid grid-cols-2 lg:grid-cols-2 gap-8 mb-10">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-10">
                 <div className="col-span-1">
                   <p>実習</p>
                   <Image src="/work_002.jpg" 
@@ -602,7 +602,7 @@ export default function Recruit() {
                 </div>
               </div>
               
-              <div className="grid grid-cols-2 lg:grid-cols-2 gap-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                 <div className="col-span-1">
                   <p>店舗配属</p>
                   <Image src="/work_003.jpg" 
@@ -631,7 +631,7 @@ export default function Recruit() {
             <p>月に１度、個々のレベルに応じたスキルアップ研修を行っています。
               この研修は全営業スタッフが集まり成功体験例など情報交換の場でもあり能力アップと同時に社員間のコミュニケーションを深める機会にもなっています。
             </p>
-            <div className="grid grid-cols-2 lg:grid-cols-2 gap-8 mt-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-10">
               <div className="col-span-1">
                 <Image src="/work_004.jpg" 
                           alt="image" 
@@ -650,7 +650,7 @@ export default function Recruit() {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 lg:grid-cols-2 gap-8 mt-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-5">
               <div className="col-span-1">
                 <p>
                   能力開発の機会を提供
@@ -671,7 +671,7 @@ export default function Recruit() {
 
             <div>
               <h1 className="text-[#0071bc] text-xl font-bold mb-5">貢献力の育成</h1>
-              <div className="grid grid-cols-2 lg:grid-cols-2 gap-8 mt-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-5">
                 <div className="col-span-1">
                   <p className="mb-10">
                     日本スーパー電子は、従業員の「誰かの役に立ちたい、そして自分も成長したい」という　
@@ -698,7 +698,7 @@ export default function Recruit() {
             </div>
 
             <div>
-              <div className="grid grid-cols-2 lg:grid-cols-2 gap-8 mt-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-5">
                 <div className="col-span-1">
                   <p className="mb-10">
                     東日本大震災支援活動
@@ -831,7 +831,7 @@ export default function Recruit() {
                 </tbody>
               </table>
 
-              <div className="grid grid-cols-2 lg:grid-cols-2 gap-16 mb-10">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-16 mb-10">
                 <div className="col-span-1">
                   <p className="font-bold">出産後仕事に復帰している社員の声</p> <br/>
                   <Image src="/work_007.jpg" 
@@ -854,7 +854,7 @@ export default function Recruit() {
               </div>
                   
 
-            <div className="grid grid-cols-2 lg:grid-cols-2 gap-16 mb-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-16 mb-10">
                 <div className="col-span-1">
                   <p className="font-bold">育休を取得した男性社員の声</p> <br/>
                   <Image src="/work_014.jpg" 
@@ -981,7 +981,7 @@ export default function Recruit() {
             <h3 className="text-[#0071bc] text-lg">創業者からのメッセージ</h3>
           </div>
 
-          <div className="grid grid-cols-4 gap-8">
+              <div className="grid grid-cols-1 sm:grid-cols-4 gap-8">
             <div className="col-span-3">
               <p className="text-xl text-red-500 underline decoration-dotted underline-offset-4 mb-15">「理想の会社を実現したい」その思いで生きています。</p>
               <p>

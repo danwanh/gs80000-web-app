@@ -27,7 +27,7 @@ const profile = [
       <div className="lg:col-span-3">
         <div className="max-w-3xl mx-auto mb-10">
             {profile.map((event, index) => (
-            <div key={index} className="grid grid-cols-5 gap-2">
+            <div key={index} className="grid grid-cols-1 sm:grid-cols-5 gap-2">
             {/* Date */}
             <div className="text-gray-700 font-bold py-4">{event.label}</div>
             {/* Event */}

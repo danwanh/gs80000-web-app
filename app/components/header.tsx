@@ -77,14 +77,17 @@ export default function Header() {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <div className="flex items-center">
-              <Link href="/" className="flex items-center space-x-3">
+              <Link href="/" className="flex items-center gap-2">
                 <Image
                     src="/logo.jpg"
-                    alt="医療機器"
+                    alt="GS80000"
                     width={350}
                     height={256}
-                    className="rounded"
+                    className="h-auto w-14 rounded sm:w-16 lg:w-20"
                     />
+                <span className="whitespace-nowrap text-sm font-bold tracking-wide text-[#0071bc] sm:text-base lg:text-lg">
+                  NIPPON GROUP
+                </span>
               </Link>
             </div>
 

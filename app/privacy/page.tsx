@@ -9,7 +9,7 @@ export default function PrivacyPage() {
               <h2 className="text-white font-medium text-lg">プライバシーポリシー</h2>
               <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
             </div>
-            <p className="mb-10">日本スーパー電子株式会社は、個人情報を保護することが社会的責務であることを十分認識し、以下の通り個人情報の適正な取扱いに努めます。</p>
+            <p className="mb-10">NIPPON GROUPは、個人情報を保護することが社会的責務であることを十分認識し、以下の通り個人情報の適正な取扱いに努めます。</p>
             
             <div className="bg-gray-100 border-l-4 border-l-[#0071bc] border-b-4 border-b-gray-300  p-2 mb-5">
                 <h3 className="text-[#0071bc] font-bold text-lg">１、取組方針について</h3>
@@ -67,7 +67,7 @@ export default function PrivacyPage() {
             <p className="mb-5">個人情報の取扱いおよび安全管理措置に関するご意見・ご要望・お問い合わせ、また個人情報の取扱いに関する苦情につきましては、下記窓口にお申し出下さい。</p>
             <p>【電話番号】　総務課　048-683-2977</p>
             <p className="mb-10">【受付時間】　平日　9：00～17：00</p>
-            <p className="text-right">日本スーパー電子株式会社</p>
+            <p className="text-right">NIPPON GROUP</p>
             <p className="text-right">代表取締役　髙橋裕久</p> 
         </div>
       </div>

@@ -400,7 +400,7 @@ export default function MedicalPage() {
                                     <div className="text-sm text-gray-700 leading-relaxed space-y-3"></div>
                                 </div>
                                 <p>お電話でのお問い合わせ</p>
-                                <p className="font-bold mb-5">＜本部＞日本スーパー電子株式会社</p>
+                                <p className="font-bold mb-5">＜本部＞NIPPON GROUP</p>
                                 <p className="text-xl font-bold text-blue-600 mb-5">０４８－６８３－２９７７</p>
                                 <p className="font-medium">営業時間　9：00～18：00</p>
                                 <p className="font-medium">休日　土曜日・日曜日・祝日</p>

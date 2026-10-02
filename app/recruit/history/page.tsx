@@ -27,10 +27,10 @@ export default function History() {
                 <Link href="/recruit">
                     <Image 
                         src="/logo.jpg" 
-                        alt="image" 
-                        width={300} 
-                        height={200} 
-                        className="rounded cursor-pointer" 
+                        alt="GS80000" 
+                        width={63} 
+                        height={50} 
+                        className="h-10 w-auto rounded cursor-pointer sm:h-12" 
                     />
                 </Link>
               </div>

@@ -81,9 +81,9 @@ export default function Header() {
                 <Image
                     src="/logo.jpg"
                     alt="GS80000"
-                    width={350}
-                    height={256}
-                    className="h-auto w-14 rounded sm:w-16 lg:w-20"
+                    width={63}
+                    height={50}
+                    className="h-10 w-auto rounded sm:h-12"
                     />
                 <span className="whitespace-nowrap text-sm font-bold tracking-wide text-[#0071bc] sm:text-base lg:text-lg">
                   (NIPPON GROUP)
